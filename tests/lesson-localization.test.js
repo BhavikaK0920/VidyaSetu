@@ -3,7 +3,7 @@ import { sampleLessons } from '../src/js/data/sample-lessons.js';
 import { getLocalizedLesson } from '../src/js/utils/localization.js';
 
 describe('Deep Lesson Multilingual Localization', () => {
-  const lesson = sampleLessons[0]; // Fractions lesson
+  const lesson = sampleLessons.find(l => l.id === 'lesson-math-101') || sampleLessons[0];
 
   it('should return base English lesson when language is en', () => {
     const localized = getLocalizedLesson(lesson, 'en');

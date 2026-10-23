@@ -2,7 +2,7 @@ import { describe, it, expect, beforeEach } from 'vitest';
 import { sampleLessons } from '../src/js/data/sample-lessons.js';
 
 describe('Quiz Scoring and Duplicate Prevention Logic', () => {
-  const lesson = sampleLessons[0]; // Fractions lesson
+  const lesson = sampleLessons.find(l => l.id === 'lesson-math-101') || sampleLessons[0];
 
   it('should score 100% when all correct options are selected', () => {
     const answers = [

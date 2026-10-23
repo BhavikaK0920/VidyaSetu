@@ -1,6 +1,6 @@
 -- VidyaSetu Seed Data
 -- Multilingual Digital Learning Platform for Rural Government Schools
--- Provides realistic sample schools, teachers, students, lessons, and activities
+-- Provides realistic sample schools, teachers, students, lessons across Classes 1 to 8
 
 -- Languages
 INSERT INTO languages (code, name, native_name) VALUES
@@ -52,14 +52,18 @@ INSERT INTO classes (id, school_id, grade_number, section_name, academic_year, c
 ('d0000000-0000-0000-0000-000000000008', 'a0000000-0000-0000-0000-000000000001', 8, 'A', '2026-27', 'b0000000-0000-0000-0000-000000000002')
 ON CONFLICT (id) DO NOTHING;
 
--- Sample Lessons
+-- Sample Lessons for Classes 1 to 8
 INSERT INTO lessons (id, subject_id, grade_level, title, slug, summary, estimated_minutes, difficulty_level, status, created_by, published_at) VALUES
+('e0000000-0000-0000-0000-000000000010', 'c0000000-0000-0000-0000-000000000001', 1, 'Fun Counting 1 to 10 with Tamarind Seeds & Marbles', 'counting-1-to-10-seeds-marbles', 'Learn to count numbers from 1 to 10 using shiny seeds and marbles.', 10, 'beginner', 'published', 'b0000000-0000-0000-0000-000000000003', now()),
+('e0000000-0000-0000-0000-000000000005', 'c0000000-0000-0000-0000-000000000001', 2, 'Counting in Bundles of Tens with Neem Twigs', 'counting-tens-neem-twigs', 'Master place value by bundling 10 twigs into one ten to count up to 50 easily.', 12, 'beginner', 'published', 'b0000000-0000-0000-0000-000000000003', now()),
+('e0000000-0000-0000-0000-000000000004', 'c0000000-0000-0000-0000-000000000004', 3, 'My Village Animals and Their Sounds', 'village-animals-sounds', 'Learn English words and pronunciations for domestic and wild animals in our surroundings.', 10, 'beginner', 'published', 'b0000000-0000-0000-0000-000000000003', now()),
 ('e0000000-0000-0000-0000-000000000001', 'c0000000-0000-0000-0000-000000000001', 4, 'Understanding Fractions with Chapati & Mangoes', 'fractions-chapati-mangoes', 'Learn half (1/2), one-third (1/3), and quarter (1/4) using everyday village examples.', 15, 'beginner', 'published', 'b0000000-0000-0000-0000-000000000003', now()),
 ('e0000000-0000-0000-0000-000000000002', 'c0000000-0000-0000-0000-000000000002', 4, 'The Journey of Water: Our Village Tank to Rain', 'journey-of-water-village-tank', 'Discover how water evaporates, forms clouds, and returns as life-giving monsoon rain.', 12, 'beginner', 'published', 'b0000000-0000-0000-0000-000000000003', now()),
 ('e0000000-0000-0000-0000-000000000003', 'c0000000-0000-0000-0000-000000000003', 5, 'Parts of a Plant and Seed Germination', 'plant-parts-germination', 'Hands-on discovery of roots, stems, leaves, flowers, and how a seed wakes up with water.', 18, 'intermediate', 'published', 'b0000000-0000-0000-0000-000000000003', now()),
-('e0000000-0000-0000-0000-000000000004', 'c0000000-0000-0000-0000-000000000004', 3, 'My Village Animals and Their Sounds', 'village-animals-sounds', 'Learn English words and pronunciations for domestic and wild animals in our surroundings.', 10, 'beginner', 'published', 'b0000000-0000-0000-0000-000000000003', now()),
-('e0000000-0000-0000-0000-000000000005', 'c0000000-0000-0000-0000-000000000001', 2, 'Counting & Grouping with Neem Seeds', 'counting-neem-seeds', 'Count up to 50 in bundles of tens and units using dry seeds and pebbles.', 10, 'beginner', 'published', 'b0000000-0000-0000-0000-000000000003', now()),
-('e0000000-0000-0000-0000-000000000006', 'c0000000-0000-0000-0000-000000000006', 6, 'Our Panchayati Raj: How Village Governance Works', 'village-panchayat-governance', 'Understand the Gram Sabha, the Sarpanch, and how villagers resolve community issues.', 20, 'intermediate', 'submitted', 'b0000000-0000-0000-0000-000000000002', NULL)
+('e0000000-0000-0000-0000-000000000006', 'c0000000-0000-0000-0000-000000000006', 6, 'Our Panchayati Raj: How Village Governance Works', 'village-panchayat-governance', 'Understand the Gram Sabha, the Sarpanch, and how villagers resolve community issues.', 20, 'intermediate', 'published', 'b0000000-0000-0000-0000-000000000002', now()),
+('e0000000-0000-0000-0000-000000000011', 'c0000000-0000-0000-0000-000000000003', 7, 'Nutrition in Animals: How Cattle Digest Tough Grass', 'nutrition-animals-cattle-digestion', 'Study the four-chambered stomach of ruminants and cud chewing.', 20, 'intermediate', 'published', 'b0000000-0000-0000-0000-000000000003', now()),
+('e0000000-0000-0000-0000-000000000012', 'c0000000-0000-0000-0000-000000000003', 8, 'Crop Production & Modern Sustainable Agriculture', 'crop-production-sustainable-agriculture', 'Explore Kharif vs Rabi seasons, soil preparation, and drip irrigation.', 22, 'advanced', 'published', 'b0000000-0000-0000-0000-000000000003', now()),
+('e0000000-0000-0000-0000-000000000013', 'c0000000-0000-0000-0000-000000000006', 8, 'The Indian Constitution & Right to Education (RTE)', 'indian-constitution-right-to-education', 'Understand Article 21A, fundamental rights, and free compulsory education.', 20, 'advanced', 'published', 'b0000000-0000-0000-0000-000000000003', now())
 ON CONFLICT (id) DO NOTHING;
 
 -- Sample Achievements
@@ -72,5 +76,5 @@ ON CONFLICT (id) DO NOTHING;
 
 -- Initial Audit Log
 INSERT INTO audit_logs (id, actor_id, action, target_entity, target_id, details) VALUES
-('10000000-0000-0000-0000-000000000001', 'b0000000-0000-0000-0000-000000000001', 'SEED_PLATFORM', 'system', NULL, '{"message": "Initialized VidyaSetu foundational curriculum data"}'::jsonb)
+('10000000-0000-0000-0000-000000000001', 'b0000000-0000-0000-0000-000000000001', 'SEED_PLATFORM', 'system', NULL, '{"message": "Initialized VidyaSetu foundational curriculum data across Classes 1-8"}'::jsonb)
 ON CONFLICT (id) DO NOTHING;
