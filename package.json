@@ -1,0 +1,20 @@
+{
+  "name": "vidyasetu",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "VidyaSetu — Multilingual Digital Learning Platform for Rural Government Schools",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "vite": "^6.1.0",
+    "vitest": "^3.0.5"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.48.1"
+  }
+}

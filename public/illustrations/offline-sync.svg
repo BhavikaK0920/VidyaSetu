@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 450 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="offBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FDF8F0" />
+      <stop offset="100%" stop-color="#E6F4ED" />
+    </linearGradient>
+  </defs>
+  <rect width="450" height="300" rx="16" fill="url(#offBg)" />
+
+  <!-- Cloud with sync arrows -->
+  <g transform="translate(150, 40)">
+    <path d="M40 70 A30 30 0 0 1 95 50 A45 45 0 0 1 170 65 A35 35 0 0 1 180 110 L30 110 A25 25 0 0 1 40 70 Z" fill="#176B55" opacity="0.15" />
+    <!-- Refresh / Sync circle -->
+    <circle cx="105" cy="85" r="28" fill="#176B55" />
+    <path d="M95 85 A10 10 0 1 1 115 85" fill="none" stroke="#FBFAF6" stroke-width="3" stroke-linecap="round" />
+    <polygon points="113,80 119,85 113,90" fill="#FBFAF6" />
+    <polygon points="97,90 91,85 97,80" fill="#FBFAF6" />
+  </g>
+
+  <!-- Tablet / Smartphone device -->
+  <rect x="155" y="145" width="140" height="110" rx="10" fill="#20332E" />
+  <rect x="162" y="152" width="126" height="96" rx="6" fill="#FBFAF6" />
+
+  <!-- Inside tablet screen: Offline lesson downloaded -->
+  <rect x="170" y="160" width="70" height="10" rx="2" fill="#176B55" />
+  <circle cx="270" cy="165" r="6" fill="#10B981" /> <!-- Green checkmark / offline badge -->
+  <path d="M267 165 L269 167 L273 163" fill="none" stroke="#FFF" stroke-width="1.5" stroke-linecap="round" />
+
+  <rect x="170" y="178" width="110" height="6" rx="2" fill="#E2E8F0" />
+  <rect x="170" y="188" width="90" height="6" rx="2" fill="#E2E8F0" />
+  <rect x="170" y="198" width="60" height="6" rx="2" fill="#E2E8F0" />
+
+  <rect x="170" y="215" width="45" height="18" rx="4" fill="#F2B84B" />
+  <text x="176" y="228" font-family="sans-serif" font-size="9" font-weight="bold" fill="#20332E">START</text>
+
+  <!-- No internet wifi signal icon with a soft cross or green offline badge -->
+  <circle cx="90" cy="180" r="24" fill="#FEF3C7" stroke="#F59E0B" stroke-width="2" />
+  <text x="76" y="186" font-family="sans-serif" font-size="16">⚡</text>
+  <text x="60" y="220" font-family="sans-serif" font-size="12" fill="#B45309" font-weight="600">Zero Internet</text>
+
+  <!-- Green Sync restored icon on right -->
+  <circle cx="360" cy="180" r="24" fill="#D1FAE5" stroke="#10B981" stroke-width="2" />
+  <text x="350" y="187" font-family="sans-serif" font-size="18">✓</text>
+  <text x="325" y="220" font-family="sans-serif" font-size="12" fill="#047857" font-weight="600">Auto-Synced</text>
+</svg>

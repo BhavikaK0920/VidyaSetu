@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 420" width="100%" height="100%">
+  <defs>
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FEF3C7" />
+      <stop offset="40%" stop-color="#E0F2FE" />
+      <stop offset="100%" stop-color="#E6F4ED" />
+    </linearGradient>
+    <linearGradient id="sunGradHero" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FDE047" />
+      <stop offset="100%" stop-color="#F2B84B" />
+    </linearGradient>
+    <linearGradient id="riverGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#0284C7" stop-opacity="0.8" />
+    </linearGradient>
+    <linearGradient id="bridgeBook" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#176B55" />
+      <stop offset="50%" stop-color="#22896E" />
+      <stop offset="100%" stop-color="#135946" />
+    </linearGradient>
+  </defs>
+
+  <!-- Sky -->
+  <rect width="600" height="420" rx="16" fill="url(#skyGrad)" />
+
+  <!-- Rising Sun behind rolling hills -->
+  <circle cx="300" cy="180" r="64" fill="url(#sunGradHero)" />
+  <g stroke="#F2B84B" stroke-width="3" opacity="0.6" stroke-linecap="round">
+    <line x1="300" y1="100" x2="300" y2="80" />
+    <line x1="235" y1="125" x2="220" y2="110" />
+    <line x1="365" y1="125" x2="380" y2="110" />
+    <line x1="205" y1="180" x2="185" y2="180" />
+    <line x1="395" y1="180" x2="415" y2="180" />
+  </g>
+
+  <!-- Rolling Hills in background -->
+  <path d="M0 240 Q140 170 300 210 Q460 250 600 200 L600 420 L0 420 Z" fill="#99D5B3" opacity="0.7" />
+  <path d="M0 270 Q160 220 320 250 Q480 280 600 240 L600 420 L0 420 Z" fill="#60BA8C" opacity="0.85" />
+
+  <!-- Winding River -->
+  <path d="M280 245 C270 290 330 330 300 420 L350 420 C380 340 320 290 320 245 Z" fill="url(#riverGrad)" />
+
+  <!-- Foreground Green Banks -->
+  <path d="M0 320 Q120 290 270 330 L270 420 L0 420 Z" fill="#2E7D5B" />
+  <path d="M330 330 Q470 290 600 320 L600 420 L330 420 Z" fill="#2E7D5B" />
+
+  <!-- Open Book Bridge Spanning River -->
+  <!-- Left Page -->
+  <path d="M300 280 Q210 220 150 250 L150 275 Q210 245 300 305 Z" fill="url(#bridgeBook)" />
+  <path d="M150 250 L150 275" stroke="#F2B84B" stroke-width="3" />
+  <!-- Left Page Text Lines -->
+  <line x1="170" y1="258" x2="220" y2="250" stroke="#E6F4ED" stroke-width="2" stroke-linecap="round" />
+  <line x1="170" y1="266" x2="210" y2="258" stroke="#E6F4ED" stroke-width="2" stroke-linecap="round" />
+
+  <!-- Right Page -->
+  <path d="M300 280 Q390 220 450 250 L450 275 Q390 245 300 305 Z" fill="#135946" />
+  <path d="M450 250 L450 275" stroke="#F2B84B" stroke-width="3" />
+  <!-- Right Page Text Lines -->
+  <line x1="380" y1="250" x2="430" y2="258" stroke="#E6F4ED" stroke-width="2" stroke-linecap="round" />
+  <line x1="390" y1="258" x2="430" y2="266" stroke="#E6F4ED" stroke-width="2" stroke-linecap="round" />
+
+  <!-- Bridge Archway under Book -->
+  <path d="M220 310 Q300 250 380 310" fill="none" stroke="#F2B84B" stroke-width="4" stroke-linecap="round" />
+
+  <!-- Growing Green Sprout at Bridge Crest -->
+  <path d="M300 280 Q290 255 275 260 Q285 275 300 280" fill="#4ADE80" stroke="#176B55" stroke-width="1.5" />
+  <path d="M300 280 Q310 250 325 255 Q315 275 300 280" fill="#86EFAC" stroke="#176B55" stroke-width="1.5" />
+
+  <!-- Schoolhouse on the right bank -->
+  <rect x="470" y="270" width="70" height="50" rx="3" fill="#FBFAF6" stroke="#176B55" stroke-width="2" />
+  <polygon points="460,270 505,235 550,270" fill="#D97706" />
+  <!-- Flag pole on school -->
+  <line x1="505" y1="235" x2="505" y2="205" stroke="#20332E" stroke-width="2" />
+  <polygon points="505,205 525,212 505,220" fill="#F2B84B" />
+  <!-- School Door and Windows -->
+  <rect x="495" y="295" width="20" height="25" rx="2" fill="#176B55" />
+  <rect x="475" y="280" width="14" height="14" fill="#BAE6FD" stroke="#176B55" stroke-width="1" />
+  <rect x="521" y="280" width="14" height="14" fill="#BAE6FD" stroke="#176B55" stroke-width="1" />
+
+  <!-- Neem tree on the left bank -->
+  <path d="M80 350 Q85 300 90 280 Q95 300 100 350" fill="#78350F" />
+  <circle cx="85" cy="260" r="35" fill="#15803D" />
+  <circle cx="105" cy="245" r="30" fill="#16A34A" />
+  <circle cx="70" cy="245" r="28" fill="#22C55E" />
+
+  <!-- Two schoolchildren characters learning happily -->
+  <!-- Student 1 (holding book) -->
+  <circle cx="120" cy="330" r="10" fill="#FBBF24" />
+  <rect x="112" y="340" width="16" height="24" rx="4" fill="#176B55" />
+  <rect x="118" y="346" width="12" height="10" rx="1" fill="#F2B84B" /> <!-- Notebook -->
+  <line x1="116" y1="364" x2="114" y2="385" stroke="#1E293B" stroke-width="3" stroke-linecap="round" />
+  <line x1="124" y1="364" x2="126" y2="385" stroke="#1E293B" stroke-width="3" stroke-linecap="round" />
+
+  <!-- Student 2 (holding tablet with glowing screen) -->
+  <circle cx="150" cy="335" r="9" fill="#FBBF24" />
+  <rect x="143" y="344" width="14" height="22" rx="4" fill="#E11D48" />
+  <rect x="146" y="348" width="14" height="11" rx="2" fill="#38BDF8" stroke="#0284C7" stroke-width="1" /> <!-- Tablet -->
+  <line x1="147" y1="366" x2="145" y2="385" stroke="#1E293B" stroke-width="3" stroke-linecap="round" />
+  <line x1="153" y1="366" x2="155" y2="385" stroke="#1E293B" stroke-width="3" stroke-linecap="round" />
+
+  <!-- Floating playful learning icons / sparkle stars -->
+  <g fill="#F2B84B">
+    <!-- Star 1 -->
+    <path d="M220 180 L223 186 L230 187 L225 192 L226 198 L220 195 L214 198 L215 192 L210 187 L217 186 Z" />
+    <!-- Star 2 -->
+    <path d="M380 170 L382 175 L387 176 L383 180 L384 185 L380 182 L376 185 L377 180 L373 176 L378 175 Z" />
+  </g>
+</svg>

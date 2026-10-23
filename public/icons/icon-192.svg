@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192" width="192" height="192">
+  <defs>
+    <linearGradient id="pwaBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#176B55" />
+      <stop offset="100%" stop-color="#0E4839" />
+    </linearGradient>
+    <linearGradient id="pwaSun" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FEF08A" />
+      <stop offset="100%" stop-color="#F2B84B" />
+    </linearGradient>
+  </defs>
+  <rect width="192" height="192" rx="40" fill="url(#pwaBg)" />
+  <!-- Sun -->
+  <circle cx="96" cy="74" r="32" fill="url(#pwaSun)" />
+  <g stroke="#F2B84B" stroke-width="4" stroke-linecap="round">
+    <line x1="96" y1="30" x2="96" y2="18" />
+    <line x1="60" y1="40" x2="52" y2="30" />
+    <line x1="132" y1="40" x2="140" y2="30" />
+    <line x1="45" y1="74" x2="33" y2="74" />
+    <line x1="147" y1="74" x2="159" y2="74" />
+  </g>
+  <!-- Book Bridge -->
+  <path d="M96 112 Q66 84 24 100 L24 135 Q66 119 96 147 Z" fill="#E6F4ED" />
+  <path d="M96 112 Q126 84 168 100 L168 135 Q126 119 96 147 Z" fill="#C4E7D7" />
+  <path d="M66 147 Q96 108 126 147" fill="none" stroke="#176B55" stroke-width="6" stroke-linecap="round" />
+  <!-- Central Sprout -->
+  <path d="M96 108 Q90 92 78 95 Q84 106 96 108" fill="#4ADE80" />
+  <path d="M96 108 Q102 90 114 94 Q108 106 96 108" fill="#86EFAC" />
+</svg>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#176B55" />
+  <meta name="description" content="VidyaSetu — Multilingual Digital Learning Platform for Rural Government Schools. Interactive, activity-based educational content in multiple Indian regional languages for Classes 1–8. 100% offline-capable." />
+  <title>VidyaSetu — Multilingual Digital Learning Platform for Rural Government Schools</title>
+
+  <!-- PWA Manifest & Favicon -->
+  <link rel="manifest" href="/manifest.json" />
+  <link rel="icon" type="image/svg+xml" href="/icons/favicon.svg" />
+  <link rel="apple-touch-icon" href="/icons/icon-192.svg" />
+
+  <!-- Google Fonts: Outfit, Inter, and Noto Sans for Regional Indian Scripts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&family=Noto+Sans:wght@400;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Custom Design Tokens and Stylesheets -->
+  <link rel="stylesheet" href="/src/styles/tokens.css" />
+  <link rel="stylesheet" href="/src/styles/global.css" />
+  <link rel="stylesheet" href="/src/styles/components.css" />
+  <link rel="stylesheet" href="/src/styles/responsive.css" />
+</head>
+<body>
+  <div id="app">
+    <!-- Sticky Navigation Mount Point -->
+    <div id="navbar-mount"></div>
+
+    <!-- Main Dynamic Content Region -->
+    <main class="main-content" id="main-content" role="main" aria-live="polite">
+      <!-- Loading Shell State -->
+      <div class="container" style="padding: 80px 16px; text-align: center;">
+        <div style="font-size: 32px; animation: pulse-sync 1.5s infinite;">🌱</div>
+        <p style="margin-top: 12px; font-weight: 500; color: var(--color-primary);">Loading VidyaSetu...</p>
+      </div>
+    </main>
+
+    <!-- Footer Mount Point -->
+    <div id="footer-mount"></div>
+  </div>
+
+  <!-- Toast Container -->
+  <div id="toast-container" aria-live="assertive"></div>
+
+  <!-- Main ES Module Entry Point -->
+  <script type="module" src="/src/js/app.js"></script>
+</body>
+</html>

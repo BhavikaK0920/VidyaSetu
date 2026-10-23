@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="pwaBg512" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#176B55" />
+      <stop offset="100%" stop-color="#0E4839" />
+    </linearGradient>
+    <linearGradient id="pwaSun512" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FEF08A" />
+      <stop offset="100%" stop-color="#F2B84B" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="110" fill="url(#pwaBg512)" />
+  <circle cx="256" cy="198" r="85" fill="url(#pwaSun512)" />
+  <g stroke="#F2B84B" stroke-width="10" stroke-linecap="round">
+    <line x1="256" y1="80" x2="256" y2="48" />
+    <line x1="160" y1="107" x2="138" y2="80" />
+    <line x1="352" y1="107" x2="374" y2="80" />
+    <line x1="120" y1="198" x2="88" y2="198" />
+    <line x1="392" y1="198" x2="424" y2="198" />
+  </g>
+  <path d="M256 300 Q176 225 64 268 L64 362 Q176 319 256 394 Z" fill="#E6F4ED" />
+  <path d="M256 300 Q336 225 448 268 L448 362 Q336 319 256 394 Z" fill="#C4E7D7" />
+  <path d="M176 394 Q256 290 336 394" fill="none" stroke="#176B55" stroke-width="16" stroke-linecap="round" />
+  <!-- Sprout -->
+  <path d="M256 290 Q240 247 208 255 Q224 285 256 290" fill="#4ADE80" />
+  <path d="M256 290 Q272 242 304 253 Q288 285 256 290" fill="#86EFAC" />
+</svg>

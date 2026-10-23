@@ -1,0 +1,100 @@
+/* VidyaSetu Responsive Adaptations */
+@import './tokens.css';
+
+/* Mobile-first base is standard; below are breakpoint enhancements */
+
+/* Mobile Hamburger & Drawer */
+.mobile-menu-btn {
+  display: none;
+  width: var(--min-touch-target);
+  height: var(--min-touch-target);
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  color: var(--color-primary);
+  border-radius: var(--radius-sm);
+}
+
+.mobile-drawer {
+  display: none;
+  position: fixed;
+  top: var(--navbar-height);
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--color-surface);
+  z-index: 99;
+  padding: var(--spacing-6);
+  flex-direction: column;
+  gap: var(--spacing-4);
+  overflow-y: auto;
+  box-shadow: var(--shadow-lg);
+}
+
+.mobile-drawer.open {
+  display: flex;
+}
+
+@media (max-width: 860px) {
+  .nav-links {
+    display: none;
+  }
+
+  .mobile-menu-btn {
+    display: flex;
+  }
+
+  .navbar {
+    padding-left: var(--spacing-2);
+    padding-right: var(--spacing-2);
+  }
+
+  .brand-title {
+    font-size: var(--font-size-lg);
+  }
+
+  .brand-tagline {
+    display: none;
+  }
+
+  .section {
+    padding-top: var(--spacing-8);
+    padding-bottom: var(--spacing-8);
+  }
+
+  h1 { font-size: var(--font-size-3xl); }
+  h2 { font-size: var(--font-size-2xl); }
+  h3 { font-size: var(--font-size-xl); }
+
+  .hero-grid {
+    grid-template-columns: 1fr !important;
+    gap: var(--spacing-6) !important;
+  }
+
+  .player-body {
+    padding: var(--spacing-4);
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding-left: var(--spacing-3);
+    padding-right: var(--spacing-3);
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  .btn-icon {
+    width: var(--min-touch-target);
+  }
+
+  .grid-cards {
+    grid-template-columns: 1fr;
+  }
+
+  .grid-subjects {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
