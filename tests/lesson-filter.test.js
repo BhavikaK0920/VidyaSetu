@@ -33,7 +33,19 @@ describe('Lesson Filtering and Retrieval', () => {
       l.summary.toLowerCase().includes(query)
     );
     expect(matched.length).toBeGreaterThan(0);
-    expect(matched[0].slug).toContain('water');
+    expect(matched.some(l => l.slug.includes('water'))).toBe(true);
+  });
+
+  it('should guarantee that all standards (1 to 8) have lesson content in each subject', () => {
+    const requiredSubjects = ['math', 'evs', 'sci', 'eng', 'reg', 'soc'];
+    for (let standard = 1; standard <= 8; standard++) {
+      for (const subjectId of requiredSubjects) {
+        const found = sampleLessons.filter(
+          l => l.grade_level === standard && l.subject_id === subjectId
+        );
+        expect(found.length).toBeGreaterThan(0);
+      }
+    }
   });
 
   it('should support published vs submitted status isolation', () => {

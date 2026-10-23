@@ -1,6 +1,11 @@
-// VidyaSetu Core Educational Curriculum & Multilingual Sample Lessons
-// Covers ALL Classes 1 through 8 across Mathematics, Science, EVS, English, and Social Studies
-// Richly localized with village-relevant contexts across Kannada, Hindi, Telugu, Tamil, Marathi, Bengali, Malayalam, and English
+// VidyaSetu Comprehensive Multilingual Curriculum
+// Complete coverage across ALL 8 Standards (Class 1 to 8) and ALL 6 Subjects:
+// 1. Mathematics (math)
+// 2. Environmental Studies (evs)
+// 3. Science (sci)
+// 4. English & Vocabulary (eng)
+// 5. Regional Languages (reg)
+// 6. Social Studies (soc)
 
 export const sampleLessons = [
   {
@@ -71,6 +76,77 @@ export const sampleLessons = [
         ],
         "hint": "Say \"C-O-W\".",
         "explanation": "Correct! C is for Cow."
+      }
+    ]
+  },
+  {
+    "id": "lesson-evs-c1",
+    "grade_level": 1,
+    "subject_id": "evs",
+    "subject_name": "Environmental Studies",
+    "subject_code": "EVS",
+    "title": "Our Living Village: Domestic Animals, Green Trees & Ponds",
+    "slug": "our-living-village-trees-water-pond",
+    "summary": "Look around our village to identify tall banyan trees, fresh water ponds, and gentle domestic animals.",
+    "estimated_minutes": 12,
+    "difficulty_level": "beginner",
+    "status": "published",
+    "stars_reward": 3,
+    "cover_color": "#2A8B5B",
+    "sections": [
+      {
+        "id": "sec-1",
+        "title": "Living Sights Around Our Village",
+        "type": "concept",
+        "read_aloud": "Look around our green hamlet. Tall trees provide shade, ponds give water, and animals live with us.",
+        "content": "<div class=\"learning-card\"><h4>Nature in Our Village</h4><p>When you walk out of your home in the morning, notice the living wonders around you:</p><ul><li>🌳 <strong>Banyan & Neem Trees:</strong> Give cool shade to travelers and cattle.</li><li>🦆 <strong>Village Pond:</strong> Where ducks swim and buffaloes cool off.</li><li>🐄 <strong>Cows & Calves:</strong> Our gentle friends in the backyard.</li></ul></div>"
+      }
+    ],
+    "interactive_activity": {
+      "type": "matching",
+      "title": "Match the Living Thing to Where it Thrives",
+      "instructions": "Click the creature or plant, then match where it lives.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "Duck",
+          "right": "Village Pond Water"
+        },
+        {
+          "id": "p2",
+          "left": "Parrot",
+          "right": "Green Neem Tree"
+        },
+        {
+          "id": "p3",
+          "left": "Calf",
+          "right": "Cattle Shed (Goshala)"
+        }
+      ]
+    },
+    "quiz": [
+      {
+        "id": "q1",
+        "prompt": "Which tree provides cool shade in the village center?",
+        "options": [
+          {
+            "id": "opt1",
+            "text": "Banyan Tree",
+            "is_correct": true
+          },
+          {
+            "id": "opt2",
+            "text": "Plastic Pole",
+            "is_correct": false
+          },
+          {
+            "id": "opt3",
+            "text": "Stone Wall",
+            "is_correct": false
+          }
+        ],
+        "hint": "A large tree with hanging roots.",
+        "explanation": "Correct! The large banyan tree provides cool shade for everyone."
       }
     ]
   },
@@ -200,6 +276,290 @@ export const sampleLessons = [
         ]
       }
     }
+  },
+  {
+    "id": "lesson-reg-c1",
+    "grade_level": 1,
+    "subject_id": "reg",
+    "subject_name": "Regional Languages",
+    "subject_code": "REG",
+    "title": "Aksharamala: First Vowels (Swaragalu) & Village Songs",
+    "slug": "aksharamala-first-vowels-rhymes",
+    "summary": "Sing the traditional alphabet song and recognize the opening vowels of regional Indian languages.",
+    "estimated_minutes": 12,
+    "difficulty_level": "beginner",
+    "status": "published",
+    "stars_reward": 3,
+    "cover_color": "#7C3AED",
+    "sections": [
+      {
+        "id": "sec-1",
+        "title": "Sweet Sounds of the Mother Tongue",
+        "type": "concept",
+        "read_aloud": "Sing the opening letters: Aa, Aa, Ee, Ee! Repeat aloud with rhythmic claps.",
+        "content": "<div class=\"learning-card\"><h4>Vowels and Rhythms</h4><p>Every language begins with sweet, open vowels that flow easily like a stream:</p><div style=\"display:flex; justify-content:center; gap:20px; font-size:28px; font-weight:bold; color:#7C3AED; margin:20px 0;\"><span>ಅ / अ</span><span>ಆ / आ</span><span>ಇ / इ</span><span>ಈ / ई</span></div><p>Practice singing them with your teacher and classmates under the morning sun!</p></div>"
+      }
+    ],
+    "interactive_activity": {
+      "type": "matching",
+      "title": "Match the Letter to the Object",
+      "instructions": "Match the first letter sound to the word.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "ಅ (A)",
+          "right": "ಅರಸ (King) / अनार (Pomegranate)"
+        },
+        {
+          "id": "p2",
+          "left": "ಆ (Aa)",
+          "right": "ಆನೆ (Elephant) / आम (Mango)"
+        },
+        {
+          "id": "p3",
+          "left": "ಇ (I)",
+          "right": "ಇಲಿ (Mouse) / इमली (Tamarind)"
+        }
+      ]
+    },
+    "quiz": [
+      {
+        "id": "q1",
+        "prompt": "Which sweet fruit starts with the sound \"Aa\" (ಆ / आ)?",
+        "options": [
+          {
+            "id": "opt1",
+            "text": "Aam / Aane (Mango)",
+            "is_correct": true
+          },
+          {
+            "id": "opt2",
+            "text": "Karela (Bittergourd)",
+            "is_correct": false
+          },
+          {
+            "id": "opt3",
+            "text": "Neem",
+            "is_correct": false
+          }
+        ],
+        "hint": "The king of summer fruits.",
+        "explanation": "Correct! Aam / Aane starts with the long vowel Aa!"
+      }
+    ]
+  },
+  {
+    "id": "lesson-sci-c1",
+    "grade_level": 1,
+    "subject_id": "sci",
+    "subject_name": "Science",
+    "subject_code": "SCI",
+    "title": "Our Five Senses: Eyes, Ears, Nose, Tongue, and Hands",
+    "slug": "five-senses-sight-sound-touch",
+    "summary": "Discover how we see colors, hear bird chirps, smell sweet jasmine, taste fruits, and feel soft petals.",
+    "estimated_minutes": 12,
+    "difficulty_level": "beginner",
+    "status": "published",
+    "stars_reward": 3,
+    "cover_color": "#1D7873",
+    "sections": [
+      {
+        "id": "sec-1",
+        "title": "The Five Wonderful Gifts",
+        "type": "concept",
+        "read_aloud": "Eyes to see, ears to hear, nose to smell, tongue to taste, and skin to feel touch!",
+        "content": "<div class=\"learning-card\"><h4>How We Experience Our World</h4><p>We learn about everything around us using our five miraculous sense organs:</p><ul><li>👀 <strong>Eyes:</strong> See the golden sunset and ripe yellow mangoes.</li><li>👂 <strong>Ears:</strong> Hear morning rooster crows and temple bells.</li><li>👃 <strong>Nose:</strong> Smell sweet jasmine flowers and wet rain soil.</li><li>👅 <strong>Tongue:</strong> Taste sweet jaggery and sour tamarind.</li><li>✋ <strong>Skin:</strong> Feel cool well water and gentle breeze.</li></ul></div>"
+      }
+    ],
+    "interactive_activity": {
+      "type": "matching",
+      "title": "Match the Sense Organ to its Power",
+      "instructions": "Click the organ, then click what it senses.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "👀 Eyes",
+          "right": "Seeing colorful rangoli patterns"
+        },
+        {
+          "id": "p2",
+          "left": "👂 Ears",
+          "right": "Hearing flute music and bird songs"
+        },
+        {
+          "id": "p3",
+          "left": "👃 Nose",
+          "right": "Smelling fragrant wet earth after rain"
+        }
+      ]
+    },
+    "quiz": [
+      {
+        "id": "q1",
+        "prompt": "Which sense organ tells you that jaggery tastes sweet?",
+        "options": [
+          {
+            "id": "opt1",
+            "text": "Tongue",
+            "is_correct": true
+          },
+          {
+            "id": "opt2",
+            "text": "Ears",
+            "is_correct": false
+          },
+          {
+            "id": "opt3",
+            "text": "Elbow",
+            "is_correct": false
+          }
+        ],
+        "hint": "You use it while eating food.",
+        "explanation": "Correct! Our tongue has taste buds to taste sweet, sour, salty, and bitter."
+      }
+    ]
+  },
+  {
+    "id": "lesson-soc-c1",
+    "grade_level": 1,
+    "subject_id": "soc",
+    "subject_name": "Social Studies",
+    "subject_code": "SOC",
+    "title": "My Family and Helping Hands in Our Village",
+    "slug": "family-and-helping-hands",
+    "summary": "Learn about grandmothers, parents, siblings, and how everyone helps each other in our rural home.",
+    "estimated_minutes": 12,
+    "difficulty_level": "beginner",
+    "status": "published",
+    "stars_reward": 3,
+    "cover_color": "#EA580C",
+    "sections": [
+      {
+        "id": "sec-1",
+        "title": "Living Together with Love",
+        "type": "concept",
+        "read_aloud": "Mother, father, brother, sister, grandfather, and grandmother make a loving family.",
+        "content": "<div class=\"learning-card\"><h4>Our Cozy Home</h4><p>In our village home, everyone has a special role:</p><ul><li>👵 <strong>Grandmother (Aaji/Dadi):</strong> Tells stories and makes sweet porridge.</li><li>🌾 <strong>Parents:</strong> Work in the farm field and prepare delicious food.</li><li>🧒 <strong>Children:</strong> Help sweep the courtyard and feed the baby calf.</li></ul></div>"
+      }
+    ],
+    "interactive_activity": {
+      "type": "matching",
+      "title": "Match the Family Member to Their Care",
+      "instructions": "Click the family member, then match how they care for us.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "Grandmother",
+          "right": "Tells bedtime folklore stories"
+        },
+        {
+          "id": "p2",
+          "left": "Parents",
+          "right": "Farm food and nurture the home"
+        },
+        {
+          "id": "p3",
+          "left": "Elder Sister",
+          "right": "Helps with slate writing"
+        }
+      ]
+    },
+    "quiz": [
+      {
+        "id": "q1",
+        "prompt": "Who helps us learn our first alphabets and stories at home?",
+        "options": [
+          {
+            "id": "opt1",
+            "text": "Our loving family members",
+            "is_correct": true
+          },
+          {
+            "id": "opt2",
+            "text": "A stranger on the highway",
+            "is_correct": false
+          },
+          {
+            "id": "opt3",
+            "text": "No one",
+            "is_correct": false
+          }
+        ],
+        "hint": "Think of who lives under your roof.",
+        "explanation": "Correct! Our parents and grandparents guide our first steps."
+      }
+    ]
+  },
+  {
+    "id": "lesson-eng-c2",
+    "grade_level": 2,
+    "subject_id": "eng",
+    "subject_name": "English & Vocabulary",
+    "subject_code": "ENG",
+    "title": "Action Words in the Village: Run, Jump, Sing & Draw",
+    "slug": "action-words-run-jump-sing",
+    "summary": "Learn dynamic action verbs describing games we play and chores we do in the rural countryside.",
+    "estimated_minutes": 12,
+    "difficulty_level": "beginner",
+    "status": "published",
+    "stars_reward": 3,
+    "cover_color": "#D97706",
+    "sections": [
+      {
+        "id": "sec-1",
+        "title": "Verbs Make Things Move!",
+        "type": "concept",
+        "read_aloud": "What are you doing? I run, I jump, I dance, I read, I write!",
+        "content": "<div class=\"learning-card\"><h4>Action Words (Verbs)</h4><p>An action word tells what someone or something is doing:</p><ul><li>🏃 Aarav <strong>runs</strong> across the green field.</li><li>💧 Raindrops <strong>fall</strong> from gray clouds.</li><li>🐦 Birds <strong>sing</strong> melodiously in the grove.</li><li>📖 Pooja <strong>reads</strong> her colorful storybook.</li></ul></div>"
+      }
+    ],
+    "interactive_activity": {
+      "type": "matching",
+      "title": "Match the Person/Creature to the Action",
+      "instructions": "Match the subject to what it does.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "Farmer",
+          "right": "Ploughs the fertile field"
+        },
+        {
+          "id": "p2",
+          "left": "Peacock",
+          "right": "Dances when rain clouds arrive"
+        },
+        {
+          "id": "p3",
+          "left": "Fish",
+          "right": "Swims in the clear pond"
+        }
+      ]
+    },
+    "quiz": [
+      {
+        "id": "q1",
+        "prompt": "Which of the following is an action word (verb)?",
+        "options": [
+          {
+            "id": "opt1",
+            "text": "Jump",
+            "is_correct": true
+          },
+          {
+            "id": "opt2",
+            "text": "Table",
+            "is_correct": false
+          },
+          {
+            "id": "opt3",
+            "text": "Yellow",
+            "is_correct": false
+          }
+        ],
+        "hint": "Something you can do with your legs.",
+        "explanation": "Correct! \"Jump\" is an action verb."
+      }
+    ]
   },
   {
     "id": "lesson-evs-c2",
@@ -340,6 +700,219 @@ export const sampleLessons = [
         ],
         "hint": "4 bundles of ten = 40.",
         "explanation": "Correct! 40 has 4 tens."
+      }
+    ]
+  },
+  {
+    "id": "lesson-reg-c2",
+    "grade_level": 2,
+    "subject_id": "reg",
+    "subject_name": "Regional Languages",
+    "subject_code": "REG",
+    "title": "Consonants (Vyanjanagalu) & Common Daily Words",
+    "slug": "consonants-vyanjanagalu-daily-words",
+    "summary": "Build two-letter and three-letter words using standard consonants from our village environment.",
+    "estimated_minutes": 12,
+    "difficulty_level": "beginner",
+    "status": "published",
+    "stars_reward": 3,
+    "cover_color": "#7C3AED",
+    "sections": [
+      {
+        "id": "sec-1",
+        "title": "Joining Letters to Form Words",
+        "type": "concept",
+        "read_aloud": "Ka for Kamala, Ga for Gaja (Elephant), Gha for Ghata (Pot). Let us join letters to make words!",
+        "content": "<div class=\"learning-card\"><h4>Making Words from Consonants</h4><p>When consonants join together, they form meaningful words:</p><div style=\"display:flex; justify-content:center; gap:20px; font-size:24px; font-weight:bold; color:#7C3AED; margin:20px 0;\"><span>ಕ + ಲ + ಮ = ಕಲಮ (Pen)</span></div><p>Practice writing these words on your slate with slate pencil (balapa)!</p></div>"
+      }
+    ],
+    "interactive_activity": {
+      "type": "matching",
+      "title": "Match the Letter to its Word",
+      "instructions": "Click the consonant, then match its word.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "ಕ / क",
+          "right": "ಕಮಲ (Lotus) / कमल"
+        },
+        {
+          "id": "p2",
+          "left": "ಗ / ग",
+          "right": "ಗಜ (Elephant) / गज"
+        },
+        {
+          "id": "p3",
+          "left": "ಘ / घ",
+          "right": "ಘಟ (Water Pot) / घट"
+        }
+      ]
+    },
+    "quiz": [
+      {
+        "id": "q1",
+        "prompt": "What word do you get by joining Ka + Ma + La?",
+        "options": [
+          {
+            "id": "opt1",
+            "text": "Kamala (Lotus)",
+            "is_correct": true
+          },
+          {
+            "id": "opt2",
+            "text": "Kalam (Pen)",
+            "is_correct": false
+          },
+          {
+            "id": "opt3",
+            "text": "Gaja (Elephant)",
+            "is_correct": false
+          }
+        ],
+        "hint": "The sacred national flower.",
+        "explanation": "Correct! Ka + Ma + La makes Kamala (Lotus)!"
+      }
+    ]
+  },
+  {
+    "id": "lesson-sci-c2",
+    "grade_level": 2,
+    "subject_id": "sci",
+    "subject_name": "Science",
+    "subject_code": "SCI",
+    "title": "Day, Night and the Moon: Sun Shadows & Night Sky",
+    "slug": "day-night-sun-shadows-sky",
+    "summary": "Watch how our shadow changes from morning to noon and why the sun rises in the east and sets in the west.",
+    "estimated_minutes": 12,
+    "difficulty_level": "beginner",
+    "status": "published",
+    "stars_reward": 3,
+    "cover_color": "#1D7873",
+    "sections": [
+      {
+        "id": "sec-1",
+        "title": "The Story of Shadows and the Sun",
+        "type": "concept",
+        "read_aloud": "In the morning the sun is low, so shadows are long. At noon, the sun is high overhead, so shadows are short!",
+        "content": "<div class=\"learning-card\"><h4>The Sun and Your Shadow</h4><p>Stand in the school ground and observe your shadow during different times:</p><ul><li>🌅 <strong>Morning:</strong> Sun rises in the East; your shadow points West and is very long.</li><li>☀️ <strong>Noon:</strong> Sun is directly overhead; your shadow is short and beneath your feet.</li><li>🌇 <strong>Evening:</strong> Sun sets in the West; your shadow points East.</li><li>🌙 <strong>Night:</strong> The bright moon and twinkling stars light up our quiet village!</li></ul></div>"
+      }
+    ],
+    "interactive_activity": {
+      "type": "matching",
+      "title": "Match the Time of Day to its Shadow",
+      "instructions": "Match the sun position to the shadow length.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "Early Morning",
+          "right": "Long shadow pointing West"
+        },
+        {
+          "id": "p2",
+          "left": "Noon (12 PM)",
+          "right": "Short shadow directly below"
+        },
+        {
+          "id": "p3",
+          "left": "Late Evening",
+          "right": "Long shadow pointing East"
+        }
+      ]
+    },
+    "quiz": [
+      {
+        "id": "q1",
+        "prompt": "Where does the bright sun rise every morning?",
+        "options": [
+          {
+            "id": "opt1",
+            "text": "In the East",
+            "is_correct": true
+          },
+          {
+            "id": "opt2",
+            "text": "In the West",
+            "is_correct": false
+          },
+          {
+            "id": "opt3",
+            "text": "Underground",
+            "is_correct": false
+          }
+        ],
+        "hint": "Facing the morning rays.",
+        "explanation": "Correct! The sun rises in the East every morning."
+      }
+    ]
+  },
+  {
+    "id": "lesson-soc-c2",
+    "grade_level": 2,
+    "subject_id": "soc",
+    "subject_name": "Social Studies",
+    "subject_code": "SOC",
+    "title": "Festivals We Celebrate Together in Our Village",
+    "slug": "festivals-we-celebrate-together",
+    "summary": "Discover how Sankranti/Pongal, Deepavali, Eid, and local Jathre bring unity, joy, and delicious sweets.",
+    "estimated_minutes": 12,
+    "difficulty_level": "beginner",
+    "status": "published",
+    "stars_reward": 3,
+    "cover_color": "#EA580C",
+    "sections": [
+      {
+        "id": "sec-1",
+        "title": "The Joy of Celebration",
+        "type": "concept",
+        "read_aloud": "Festivals bring friends and families together to share sweets, wear new clothes, and celebrate nature.",
+        "content": "<div class=\"learning-card\"><h4>Harvest and Joyous Festivals</h4><p>Our rural festivals are deeply connected to the harvest and the seasons:</p><ul><li>🌾 <strong>Makara Sankranti / Pongal:</strong> Celebrating the harvest of fresh sugarcane, sesame, and rice. Cattle are decorated and worshipped!</li><li>🪔 <strong>Deepavali:</strong> The festival of earthen lamps and joy.</li><li>🌙 <strong>Eid:</strong> Sharing sweet sheer-khurma with all neighbors.</li><li>🎪 <strong>Village Jathre / Fair:</strong> Giant wheels, toys, and cultural drama.</li></ul></div>"
+      }
+    ],
+    "interactive_activity": {
+      "type": "matching",
+      "title": "Match the Festival to its Special Tradition",
+      "instructions": "Click the festival, then match its tradition.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "Sankranti / Pongal",
+          "right": "Decorating bullocks & sharing sesame jaggery"
+        },
+        {
+          "id": "p2",
+          "left": "Deepavali",
+          "right": "Lighting earthen oil lamps (Diyas)"
+        },
+        {
+          "id": "p3",
+          "left": "Village Jathre",
+          "right": "Chariot procession and colorful rural fair"
+        }
+      ]
+    },
+    "quiz": [
+      {
+        "id": "q1",
+        "prompt": "Which harvest festival honors farm cattle and newly harvested rice?",
+        "options": [
+          {
+            "id": "opt1",
+            "text": "Sankranti / Pongal",
+            "is_correct": true
+          },
+          {
+            "id": "opt2",
+            "text": "Exam day",
+            "is_correct": false
+          },
+          {
+            "id": "opt3",
+            "text": "Summer vacation",
+            "is_correct": false
+          }
+        ],
+        "hint": "Celebrated in January with sugarcane.",
+        "explanation": "Correct! Makara Sankranti / Pongal is the great harvest festival."
       }
     ]
   },
@@ -548,6 +1121,77 @@ export const sampleLessons = [
     }
   },
   {
+    "id": "lesson-evs-c3",
+    "grade_level": 3,
+    "subject_id": "evs",
+    "subject_name": "Environmental Studies",
+    "subject_code": "EVS",
+    "title": "Water Around Us: Wells, Step-Wells & Village Tanks",
+    "slug": "water-around-us-wells-tanks",
+    "summary": "Understand how rain fills village tanks (kere/talab), replenishes open wells, and keeps farm soil fertile.",
+    "estimated_minutes": 12,
+    "difficulty_level": "beginner",
+    "status": "published",
+    "stars_reward": 3,
+    "cover_color": "#2A8B5B",
+    "sections": [
+      {
+        "id": "sec-1",
+        "title": "The Lifeline of the Village",
+        "type": "concept",
+        "read_aloud": "Without water, crops wither and animals thirst. We must keep our open wells and tanks clean!",
+        "content": "<div class=\"learning-card\"><h4>Sources of Clean Water</h4><p>Where does our village get water every day?</p><ul><li>🌧️ <strong>Monsoon Rain:</strong> The primary source that refills underground aquifers.</li><li>🧱 <strong>Open Dug Wells:</strong> Reaching cool underground freshwater.</li><li>🌊 <strong>Village Tank (Kere/Talab):</strong> Stores rainwater for irrigating paddy and sugarcane.</li></ul><p><strong>Rule:</strong> Never wash clothes or dump trash near drinking water sources!</p></div>"
+      }
+    ],
+    "interactive_activity": {
+      "type": "matching",
+      "title": "Match the Water Source to its Benefit",
+      "instructions": "Click the source, then match its purpose.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "Village Tank (Talab)",
+          "right": "Stores irrigation water for crop fields"
+        },
+        {
+          "id": "p2",
+          "left": "Deep Borewell",
+          "right": "Pumps clean drinking water to overhead tank"
+        },
+        {
+          "id": "p3",
+          "left": "Rooftop Rain Gutter",
+          "right": "Harvests rainwater for household cleaning"
+        }
+      ]
+    },
+    "quiz": [
+      {
+        "id": "q1",
+        "prompt": "What is the primary natural source of all freshwater in our country?",
+        "options": [
+          {
+            "id": "opt1",
+            "text": "Monsoon Rain",
+            "is_correct": true
+          },
+          {
+            "id": "opt2",
+            "text": "Water Tanker Truck",
+            "is_correct": false
+          },
+          {
+            "id": "opt3",
+            "text": "Plastic Bottles",
+            "is_correct": false
+          }
+        ],
+        "hint": "It falls from clouds in the sky.",
+        "explanation": "Correct! Monsoon rainfall is the source that recharges all groundwater and lakes."
+      }
+    ]
+  },
+  {
     "id": "lesson-math-c3",
     "grade_level": 3,
     "subject_id": "math",
@@ -615,6 +1259,290 @@ export const sampleLessons = [
         ],
         "hint": "Calculate 50 minus 30.",
         "explanation": "Correct! 50 − 30 = 20 rupees change."
+      }
+    ]
+  },
+  {
+    "id": "lesson-reg-c3",
+    "grade_level": 3,
+    "subject_id": "reg",
+    "subject_name": "Regional Languages",
+    "subject_code": "REG",
+    "title": "Animal Wisdom Tales: Panchatantra in Regional Tongue",
+    "slug": "animal-wisdom-panchatantra-tales",
+    "summary": "Read classic fable stories of the clever crow, the grateful lion, and the foolish tortoise to learn moral values.",
+    "estimated_minutes": 12,
+    "difficulty_level": "beginner",
+    "status": "published",
+    "stars_reward": 3,
+    "cover_color": "#7C3AED",
+    "sections": [
+      {
+        "id": "sec-1",
+        "title": "Stories That Teach Wisdom",
+        "type": "concept",
+        "read_aloud": "Through simple stories of forest animals, wise ancient scholars taught patience, friendship, and truth.",
+        "content": "<div class=\"learning-card\"><h4>The Thirsty Crow (ಬುದ್ಧಿವಂತ ಕಾಗೆ / चतुर कौआ)</h4><p>On a hot summer afternoon, a crow was very thirsty. He spotted a pitcher with a little water at the bottom.</p><p>His beak could not reach it. What did he do? He picked small pebbles one by one with his beak and dropped them into the pot until the water level rose!</p><p><strong>Moral:</strong> Where there is a will, there is a way!</p></div>"
+      }
+    ],
+    "interactive_activity": {
+      "type": "matching",
+      "title": "Match the Fable to its Moral",
+      "instructions": "Click the story title, then match its lesson.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "The Thirsty Crow",
+          "right": "Think smartly when facing difficulties"
+        },
+        {
+          "id": "p2",
+          "left": "The Lion and the Mouse",
+          "right": "Even small friends can be of big help"
+        },
+        {
+          "id": "p3",
+          "left": "The Tortoise and the Hare",
+          "right": "Slow and steady wins the race"
+        }
+      ]
+    },
+    "quiz": [
+      {
+        "id": "q1",
+        "prompt": "What did the thirsty crow drop into the water pitcher?",
+        "options": [
+          {
+            "id": "opt1",
+            "text": "Small smooth pebbles",
+            "is_correct": true
+          },
+          {
+            "id": "opt2",
+            "text": "Leaves",
+            "is_correct": false
+          },
+          {
+            "id": "opt3",
+            "text": "Dry sand",
+            "is_correct": false
+          }
+        ],
+        "hint": "Heavy stones that sink.",
+        "explanation": "Correct! Dropping heavy pebbles raised the water level."
+      }
+    ]
+  },
+  {
+    "id": "lesson-sci-c3",
+    "grade_level": 3,
+    "subject_id": "sci",
+    "subject_name": "Science",
+    "subject_code": "SCI",
+    "title": "Types of Animals: Herbivores, Carnivores & Omnivores",
+    "slug": "animal-diet-types-herbivores-carnivores",
+    "summary": "Classify animals by what they eat: plant-eaters (cows/goats), meat-eaters (tigers/hawks), and both (crows/humans).",
+    "estimated_minutes": 12,
+    "difficulty_level": "beginner",
+    "status": "published",
+    "stars_reward": 3,
+    "cover_color": "#1D7873",
+    "sections": [
+      {
+        "id": "sec-1",
+        "title": "What Do Animals Eat?",
+        "type": "concept",
+        "read_aloud": "Herbivores eat leaves and grass. Carnivores hunt meat. Omnivores eat both plants and meat!",
+        "content": "<div class=\"learning-card\"><h4>Classifying Animals by Diet</h4><ul><li>🌿 <strong>Herbivores (Plant Eaters):</strong> Cow, goat, deer, elephant, rabbit. They have flat teeth to grind grass.</li><li>🥩 <strong>Carnivores (Meat Eaters):</strong> Tiger, leopard, eagle, snake. They have sharp teeth or beaks to tear flesh.</li><li>🍲 <strong>Omnivores (Both):</strong> Crow, bear, dog, human. They eat grains, fruits, and small creatures.</li></ul></div>"
+      }
+    ],
+    "interactive_activity": {
+      "type": "matching",
+      "title": "Match the Animal to its Diet Group",
+      "instructions": "Click the creature, then match its dietary category.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "Cow & Buffalo",
+          "right": "Herbivore (Eats grass and hay)"
+        },
+        {
+          "id": "p2",
+          "left": "Tiger & Owl",
+          "right": "Carnivore (Hunts other creatures)"
+        },
+        {
+          "id": "p3",
+          "left": "Crow & Bear",
+          "right": "Omnivore (Eats both plants & meat)"
+        }
+      ]
+    },
+    "quiz": [
+      {
+        "id": "q1",
+        "prompt": "To which group does a goat belong?",
+        "options": [
+          {
+            "id": "opt1",
+            "text": "Herbivore",
+            "is_correct": true
+          },
+          {
+            "id": "opt2",
+            "text": "Carnivore",
+            "is_correct": false
+          },
+          {
+            "id": "opt3",
+            "text": "Aquatic predator",
+            "is_correct": false
+          }
+        ],
+        "hint": "Goats love nibbling green tree leaves.",
+        "explanation": "Correct! Goats eat only plant matter, making them herbivores."
+      }
+    ]
+  },
+  {
+    "id": "lesson-soc-c3",
+    "grade_level": 3,
+    "subject_id": "soc",
+    "subject_name": "Social Studies",
+    "subject_code": "SOC",
+    "title": "Village Helping Hands: Potters, Weavers, Farmers & Nurses",
+    "slug": "village-helping-hands-occupations",
+    "summary": "Appreciate the vital workers who keep our rural community self-reliant, healthy, and prosperous.",
+    "estimated_minutes": 12,
+    "difficulty_level": "beginner",
+    "status": "published",
+    "stars_reward": 3,
+    "cover_color": "#EA580C",
+    "sections": [
+      {
+        "id": "sec-1",
+        "title": "Occupations That Build Our Village",
+        "type": "concept",
+        "read_aloud": "Every occupation is dignified. The farmer grows grain, the potter shapes clay, the nurse heals sickness.",
+        "content": "<div class=\"learning-card\"><h4>Community Helpers</h4><ul><li>🌾 <strong>Farmer (Kisan/Raitha):</strong> Tills soil to produce food grains for the entire country.</li><li>🏺 <strong>Potter (Kumbhara/Kumhar):</strong> Shapes clay on the wheel into cooling water pots (matkas).</li><li>🧶 <strong>Weaver (Nekar/Bunkar):</strong> Weaves cotton threads into colorful saris and towels.</li><li>🩺 <strong>ASHA Worker / Village Nurse:</strong> Gives vaccines and ensures mothers and babies stay healthy.</li></ul></div>"
+      }
+    ],
+    "interactive_activity": {
+      "type": "matching",
+      "title": "Match the Helper to Their Tool",
+      "instructions": "Click the worker, then match their tool of trade.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "Potter",
+          "right": "Rotating potter wheel & wet clay"
+        },
+        {
+          "id": "p2",
+          "left": "Farmer",
+          "right": "Plough (Nenjilu) and bullock pair"
+        },
+        {
+          "id": "p3",
+          "left": "Nurse / Doctor",
+          "right": "Thermometer and health kit"
+        }
+      ]
+    },
+    "quiz": [
+      {
+        "id": "q1",
+        "prompt": "Who helps our village children get timely vaccinations and medicines?",
+        "options": [
+          {
+            "id": "opt1",
+            "text": "The Village ASHA / Health Worker",
+            "is_correct": true
+          },
+          {
+            "id": "opt2",
+            "text": "The Cinema Actor",
+            "is_correct": false
+          },
+          {
+            "id": "opt3",
+            "text": "The Toy Seller",
+            "is_correct": false
+          }
+        ],
+        "hint": "A dedicated health worker in every village.",
+        "explanation": "Correct! The village health worker cares for health and wellness."
+      }
+    ]
+  },
+  {
+    "id": "lesson-eng-c4",
+    "grade_level": 4,
+    "subject_id": "eng",
+    "subject_name": "English & Vocabulary",
+    "subject_code": "ENG",
+    "title": "Naming Words and Describing Words: Village Nouns and Adjectives",
+    "slug": "village-nouns-and-adjectives",
+    "summary": "Expand vocabulary by pairing village nouns (tree, well, sky) with colorful descriptive adjectives.",
+    "estimated_minutes": 15,
+    "difficulty_level": "beginner",
+    "status": "published",
+    "stars_reward": 3,
+    "cover_color": "#D97706",
+    "sections": [
+      {
+        "id": "sec-1",
+        "title": "Painting Pictures with Words",
+        "type": "concept",
+        "read_aloud": "A noun names a person, place, or thing. An adjective describes how it looks, feels, or sounds!",
+        "content": "<div class=\"learning-card\"><h4>Nouns & Adjectives in the Village</h4><p>Look at how descriptive adjectives bring village sentences to life:</p><ul><li>The <strong>ancient</strong> (adjective) banyan tree (noun).</li><li>The <strong>sweet</strong> (adjective) sugarcane juice (noun).</li><li>The <strong>bumpy</strong> (adjective) bullock cart road (noun).</li><li>The <strong>deep</strong> (adjective) stone well (noun).</li></ul></div>"
+      }
+    ],
+    "interactive_activity": {
+      "type": "matching",
+      "title": "Match the Noun to its Fitting Adjective",
+      "instructions": "Click the noun, then match the best describing word.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "Ripe Mango",
+          "right": "Sweet & Juicy"
+        },
+        {
+          "id": "p2",
+          "left": "Monsoon Cloud",
+          "right": "Dark & Heavy"
+        },
+        {
+          "id": "p3",
+          "left": "Clay Pot Water",
+          "right": "Cool & Refreshing"
+        }
+      ]
+    },
+    "quiz": [
+      {
+        "id": "q1",
+        "prompt": "In the phrase \"The sweet mango\", which word is the adjective?",
+        "options": [
+          {
+            "id": "opt1",
+            "text": "sweet",
+            "is_correct": true
+          },
+          {
+            "id": "opt2",
+            "text": "mango",
+            "is_correct": false
+          },
+          {
+            "id": "opt3",
+            "text": "the",
+            "is_correct": false
+          }
+        ],
+        "hint": "It describes how the fruit tastes.",
+        "explanation": "Correct! \"Sweet\" describes the noun mango."
       }
     ]
   },
@@ -1632,6 +2560,361 @@ export const sampleLessons = [
     }
   },
   {
+    "id": "lesson-reg-c4",
+    "grade_level": 4,
+    "subject_id": "reg",
+    "subject_name": "Regional Languages",
+    "subject_code": "REG",
+    "title": "Songs of the Monsoon: Regional Folk Rhymes and Harvest Poetry",
+    "slug": "monsoon-folk-rhymes-harvest-poetry",
+    "summary": "Recite lyrical regional songs celebrating thunder, green sprouted shoots, and joyous puddles.",
+    "estimated_minutes": 15,
+    "difficulty_level": "beginner",
+    "status": "published",
+    "stars_reward": 3,
+    "cover_color": "#7C3AED",
+    "sections": [
+      {
+        "id": "sec-1",
+        "title": "Welcoming the Monsoon Clouds",
+        "type": "concept",
+        "read_aloud": "Banna banna male Bantu! Rhythmic regional rain songs fill the village air with hope and laughter.",
+        "content": "<div class=\"learning-card\"><h4>Folk Rhymes of Rain</h4><p>Farmers and children sing joyous verses as dark monsoon clouds gather over the western hills:</p><blockquote>\"ಮಳೆಯೇ ಬಾರೋ ಮಳೆಯೇ ಬಾ, ಹಳ್ಳ ಕೊಳ್ಳ ತುಂಬಿ ಬಾ...\"<br/>\"बरसा पानी रिमझिम रिमझिम, नाचे मोर बजाकर धुन...\"</blockquote><p>These oral folk poems have been handed down through generations.</p></div>"
+      }
+    ],
+    "interactive_activity": {
+      "type": "matching",
+      "title": "Match the Rain Symbol to its Lyrical Meaning",
+      "instructions": "Click the symbol, then match what it signifies.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "Dancing Peacock",
+          "right": "Welcoming rain clouds with outstretched feathers"
+        },
+        {
+          "id": "p2",
+          "left": "Croaking Frogs",
+          "right": "Pond filling with fresh cool water"
+        },
+        {
+          "id": "p3",
+          "left": "Paper Boat",
+          "right": "Children playing in courtyard streams"
+        }
+      ]
+    },
+    "quiz": [
+      {
+        "id": "q1",
+        "prompt": "What bird is famous for dancing when thunder and dark rain clouds appear?",
+        "options": [
+          {
+            "id": "opt1",
+            "text": "Peacock (Navilu/Mor)",
+            "is_correct": true
+          },
+          {
+            "id": "opt2",
+            "text": "Crow",
+            "is_correct": false
+          },
+          {
+            "id": "opt3",
+            "text": "Vulture",
+            "is_correct": false
+          }
+        ],
+        "hint": "India’s national bird with emerald feathers.",
+        "explanation": "Correct! The peacock dances in joy at the scent of rain."
+      }
+    ]
+  },
+  {
+    "id": "lesson-sci-c4",
+    "grade_level": 4,
+    "subject_id": "sci",
+    "subject_name": "Science",
+    "subject_code": "SCI",
+    "title": "Food and Health: Nutritious Village Millets & Clean Water",
+    "slug": "village-millets-nutrition-health",
+    "summary": "Learn why traditional millets like Ragi (Finger Millet) and Jowar (Sorghum) provide great strength.",
+    "estimated_minutes": 15,
+    "difficulty_level": "beginner",
+    "status": "published",
+    "stars_reward": 3,
+    "cover_color": "#1D7873",
+    "sections": [
+      {
+        "id": "sec-1",
+        "title": "Power of Traditional Millets",
+        "type": "concept",
+        "read_aloud": "Ragi, Jowar, and Bajra are wonder grains packed with calcium, iron, and fiber for strong bones!",
+        "content": "<div class=\"learning-card\"><h4>Super Grains of Rural India</h4><p>Long before processed packaged food, village elders ate wholesome millets:</p><ul><li>🥣 <strong>Ragi (Finger Millet):</strong> Rich in calcium to build rock-solid bones and teeth.</li><li>🌾 <strong>Jowar (Sorghum):</strong> Keeps the body cool in hot summers and gives long energy.</li><li>🫓 <strong>Bajra (Pearl Millet):</strong> Rich in iron and ideal during chilly winters.</li></ul><p>A balanced plate includes green leafy vegetables, lentils (dal), curd, and millet roti!</p></div>"
+      }
+    ],
+    "interactive_activity": {
+      "type": "matching",
+      "title": "Match the Food to its Nutrient Superpower",
+      "instructions": "Click the village food, then match its main health benefit.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "Ragi Mudde / Porridge",
+          "right": "High Calcium for sturdy bones"
+        },
+        {
+          "id": "p2",
+          "left": "Dal / Green Gram",
+          "right": "Proteins to repair muscle and grow tall"
+        },
+        {
+          "id": "p3",
+          "left": "Drumstick Leaves (Moringa)",
+          "right": "Iron and Vitamins for sharp eyesight"
+        }
+      ]
+    },
+    "quiz": [
+      {
+        "id": "q1",
+        "prompt": "Which traditional village millet is famous for its rich calcium content?",
+        "options": [
+          {
+            "id": "opt1",
+            "text": "Ragi (Finger Millet)",
+            "is_correct": true
+          },
+          {
+            "id": "opt2",
+            "text": "Refined White Flour (Maida)",
+            "is_correct": false
+          },
+          {
+            "id": "opt3",
+            "text": "White Sugar",
+            "is_correct": false
+          }
+        ],
+        "hint": "It is made into brown nutritious balls or porridge.",
+        "explanation": "Correct! Ragi is packed with calcium and minerals."
+      }
+    ]
+  },
+  {
+    "id": "lesson-soc-c4",
+    "grade_level": 4,
+    "subject_id": "soc",
+    "subject_name": "Social Studies",
+    "subject_code": "SOC",
+    "title": "Directions and Local Map Reading: Tracing Village Landmarks",
+    "slug": "directions-village-map-reading",
+    "summary": "Learn North, South, East, West and sketch a simple schematic map of your school, temple, and post office.",
+    "estimated_minutes": 15,
+    "difficulty_level": "beginner",
+    "status": "published",
+    "stars_reward": 3,
+    "cover_color": "#EA580C",
+    "sections": [
+      {
+        "id": "sec-1",
+        "title": "Four Cardinal Directions",
+        "type": "concept",
+        "read_aloud": "Stand facing the morning sun: East is ahead, West behind, North to your left, South to your right!",
+        "content": "<div class=\"learning-card\"><h4>Finding Your Way</h4><p>How do people locate places without a smartphone?</p><ul><li>🧭 <strong>East (ಪೂರ್ವ / पूर्व):</strong> Towards the sunrise.</li><li>🧭 <strong>West (ಪಶ್ಚಿಮ / पश्चिम):</strong> Towards the sunset.</li><li>🧭 <strong>North (ಉತ್ತರ / उत्तर):</strong> Your left hand side when facing East.</li><li>🧭 <strong>South (ದಕ್ಷಿಣ / दक्षिण):</strong> Your right hand side when facing East.</li></ul><p>Use symbols (like 🏫 for School, 🏥 for Clinic) to draw a map of your village.</p></div>"
+      }
+    ],
+    "interactive_activity": {
+      "type": "matching",
+      "title": "Match the Direction to its Sun Clue",
+      "instructions": "Click the direction, then match where the sun sits.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "East",
+          "right": "Where the sun rises in the morning"
+        },
+        {
+          "id": "p2",
+          "left": "West",
+          "right": "Where the sun sets in the evening"
+        },
+        {
+          "id": "p3",
+          "left": "North",
+          "right": "Direction towards the Himalayas in India"
+        }
+      ]
+    },
+    "quiz": [
+      {
+        "id": "q1",
+        "prompt": "If you face the rising sun, which direction is directly behind your back?",
+        "options": [
+          {
+            "id": "opt1",
+            "text": "West",
+            "is_correct": true
+          },
+          {
+            "id": "opt2",
+            "text": "North",
+            "is_correct": false
+          },
+          {
+            "id": "opt3",
+            "text": "South",
+            "is_correct": false
+          }
+        ],
+        "hint": "Opposite of East.",
+        "explanation": "Correct! West is directly opposite East."
+      }
+    ]
+  },
+  {
+    "id": "lesson-eng-c5",
+    "grade_level": 5,
+    "subject_id": "eng",
+    "subject_name": "English & Vocabulary",
+    "subject_code": "ENG",
+    "title": "Tenses and Telling Stories: Yesterday, Today, and Tomorrow",
+    "slug": "tenses-past-present-future",
+    "summary": "Master the Past, Present, and Future tenses by narrating a farmer’s busy workday.",
+    "estimated_minutes": 15,
+    "difficulty_level": "intermediate",
+    "status": "published",
+    "stars_reward": 3,
+    "cover_color": "#D97706",
+    "sections": [
+      {
+        "id": "sec-1",
+        "title": "Time Traveling with Verbs",
+        "type": "concept",
+        "read_aloud": "Past: I planted a seed. Present: I water the plant. Future: I will harvest sweet fruit!",
+        "content": "<div class=\"learning-card\"><h4>Past, Present, and Future</h4><p>We change the form of the verb to show when something happened:</p><ul><li>⏪ <strong>Past Tense (Yesterday):</strong> \"The farmer <em>ploughed</em> the field.\"</li><li>▶️ <strong>Present Tense (Now):</strong> \"The farmer <em>waters</em> the green sprouts.\"</li><li>⏩ <strong>Future Tense (Tomorrow):</strong> \"The farmer <em>will harvest</em> the golden crop.\"</li></ul></div>"
+      }
+    ],
+    "interactive_activity": {
+      "type": "matching",
+      "title": "Match the Sentence to its Tense",
+      "instructions": "Click the sentence, then match its tense.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "We walked to school yesterday",
+          "right": "Past Tense"
+        },
+        {
+          "id": "p2",
+          "left": "We are studying in the classroom now",
+          "right": "Present Tense"
+        },
+        {
+          "id": "p3",
+          "left": "We will play kabaddi in the evening",
+          "right": "Future Tense"
+        }
+      ]
+    },
+    "quiz": [
+      {
+        "id": "q1",
+        "prompt": "Which sentence is written in the Future Tense?",
+        "options": [
+          {
+            "id": "opt1",
+            "text": "It will rain tomorrow evening",
+            "is_correct": true
+          },
+          {
+            "id": "opt2",
+            "text": "It rained heavily last night",
+            "is_correct": false
+          },
+          {
+            "id": "opt3",
+            "text": "It is raining right now",
+            "is_correct": false
+          }
+        ],
+        "hint": "Look for the helping word \"will\".",
+        "explanation": "Correct! \"Will rain\" indicates an action that will happen in the future."
+      }
+    ]
+  },
+  {
+    "id": "lesson-evs-c5",
+    "grade_level": 5,
+    "subject_id": "evs",
+    "subject_name": "Environmental Studies",
+    "subject_code": "EVS",
+    "title": "Forest Wealth and Sacred Groves (Devarakadu)",
+    "slug": "sacred-groves-forest-conservation",
+    "summary": "Discover how rural communities have protected biodiversity for centuries through sacred grove traditions.",
+    "estimated_minutes": 15,
+    "difficulty_level": "intermediate",
+    "status": "published",
+    "stars_reward": 3,
+    "cover_color": "#2A8B5B",
+    "sections": [
+      {
+        "id": "sec-1",
+        "title": "Traditional Conservation: Sacred Groves",
+        "type": "concept",
+        "read_aloud": "In every district, villagers protect patches of virgin forest as Devarakadu. No trees are cut, preserving wild biodiversity.",
+        "content": "<div class=\"learning-card\"><h4>Nature as a Living Temple</h4><p>A <strong>Sacred Grove (Devarakadu / Oran)</strong> is a protected forest patch cared for by community consensus:</p><ul><li>🌿 <strong>Medicinal Plants:</strong> Home to rare herbs used in Ayurveda to treat bites, fevers, and wounds.</li><li>🦉 <strong>Wildlife Sanctuary:</strong> Gives shelter to owls, civets, flying squirrels, and honeybees.</li><li>💧 <strong>Water Sponge:</strong> Forest roots absorb rain like a sponge, keeping village wells full year-round.</li></ul></div>"
+      }
+    ],
+    "interactive_activity": {
+      "type": "matching",
+      "title": "Match the Forest Gift to its Benefit",
+      "instructions": "Click the forest resource, then match its community role.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "Tree Roots",
+          "right": "Anchor soil and prevent riverbank erosion"
+        },
+        {
+          "id": "p2",
+          "left": "Medicinal Herbs",
+          "right": "Natural treatments for ailments & burns"
+        },
+        {
+          "id": "p3",
+          "left": "Beehives",
+          "right": "Pollinate village fruit trees and crop fields"
+        }
+      ]
+    },
+    "quiz": [
+      {
+        "id": "q1",
+        "prompt": "What happens to the soil when trees on a hillside are cut down?",
+        "options": [
+          {
+            "id": "opt1",
+            "text": "Topsoil washes away during heavy rains (Soil Erosion)",
+            "is_correct": true
+          },
+          {
+            "id": "opt2",
+            "text": "Soil becomes rock candy",
+            "is_correct": false
+          },
+          {
+            "id": "opt3",
+            "text": "Nothing changes",
+            "is_correct": false
+          }
+        ],
+        "hint": "Roots hold soil together.",
+        "explanation": "Correct! Tree roots bind soil; cutting them causes destructive soil erosion."
+      }
+    ]
+  },
+  {
     "id": "lesson-math-c5",
     "grade_level": 5,
     "subject_id": "math",
@@ -1706,6 +2989,77 @@ export const sampleLessons = [
         ],
         "hint": "Square Area = side × side = 4 × 4.",
         "explanation": "Correct! 4 × 4 = 16 m²."
+      }
+    ]
+  },
+  {
+    "id": "lesson-reg-c5",
+    "grade_level": 5,
+    "subject_id": "reg",
+    "subject_name": "Regional Languages",
+    "subject_code": "REG",
+    "title": "Idioms, Proverbs (Gaadegalu) & Village Sayings",
+    "slug": "proverbs-gaadegalu-village-sayings",
+    "summary": "Discover timeless rustic wisdom in proverbs: \"Veda sulladaru gaade sullagadu\" (Proverbs never lie).",
+    "estimated_minutes": 15,
+    "difficulty_level": "intermediate",
+    "status": "published",
+    "stars_reward": 3,
+    "cover_color": "#7C3AED",
+    "sections": [
+      {
+        "id": "sec-1",
+        "title": "Wisdom of Rural Ancestors",
+        "type": "concept",
+        "read_aloud": "Gaade mathu mathige hosa kanti tharuthade! Proverbs pack deep life lessons into just a few words.",
+        "content": "<div class=\"learning-card\"><h4>Classic Sayings and Their Meanings</h4><ul><li>📜 <strong>\"ಕುಂಬಾರನಿಗೆ ವರುಷ, ದೊಣ್ಣೆಗೆ ನಿಮಿಷ\"</strong> (It takes a potter a year to shape pots, but a stick one minute to shatter them): <em>Creation takes patience, destruction takes seconds.</em></li><li>📜 <strong>\"ಹನಿ ಹನಿ ಗೂಡಿದರೆ ಹಳ್ಳ\"</strong> (Drop by drop forms a stream): <em>Small consistent savings grow into great wealth.</em></li><li>📜 <strong>\"बूंद-बूंद से घड़ा भरता है\"</strong>: <em>Every small effort counts toward big success.</em></li></ul></div>"
+      }
+    ],
+    "interactive_activity": {
+      "type": "matching",
+      "title": "Match the Proverb to its Everyday Advice",
+      "instructions": "Click the proverb, then match its moral.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "ಹನಿ ಹನಿ ಗೂಡಿದರೆ ಹಳ್ಳ",
+          "right": "Consistent small efforts achieve mighty goals"
+        },
+        {
+          "id": "p2",
+          "left": "ಮಾತು ಬೆಳ್ಳಿ, ಮೌನ ಬಂಗಾರ",
+          "right": "Silence and thoughtful listening are golden"
+        },
+        {
+          "id": "p3",
+          "left": "ಕಾಯಕವೇ ಕೈಲಾಸ",
+          "right": "Honest work is supreme worship"
+        }
+      ]
+    },
+    "quiz": [
+      {
+        "id": "q1",
+        "prompt": "What does the proverb \"Drop by drop forms a stream\" teach us?",
+        "options": [
+          {
+            "id": "opt1",
+            "text": "Small everyday actions add up to great results",
+            "is_correct": true
+          },
+          {
+            "id": "opt2",
+            "text": "Stop doing anything",
+            "is_correct": false
+          },
+          {
+            "id": "opt3",
+            "text": "Water should be wasted",
+            "is_correct": false
+          }
+        ],
+        "hint": "Think of saving drops to make a river.",
+        "explanation": "Correct! Continuous small efforts create magnificent outcomes."
       }
     ]
   },
@@ -1989,6 +3343,361 @@ export const sampleLessons = [
     }
   },
   {
+    "id": "lesson-soc-c5",
+    "grade_level": 5,
+    "subject_id": "soc",
+    "subject_name": "Social Studies",
+    "subject_code": "SOC",
+    "title": "Monuments and Heritage: Ancient Stepwells and Forts",
+    "slug": "monuments-ancient-stepwells-forts",
+    "summary": "Explore stone architecture, rainwater stepwells (Kalyani/Baoli), and majestic forts in our region.",
+    "estimated_minutes": 15,
+    "difficulty_level": "intermediate",
+    "status": "published",
+    "stars_reward": 3,
+    "cover_color": "#EA580C",
+    "sections": [
+      {
+        "id": "sec-1",
+        "title": "Engineers of Ancient India",
+        "type": "concept",
+        "read_aloud": "Centuries ago, master masons built stone stepwells with intricate staircases to cool water and gather communities.",
+        "content": "<div class=\"learning-card\"><h4>Architecture that Defied Droughts</h4><p>Across Indian villages, you will find historical structures that served vital community needs:</p><ul><li>🏛️ <strong>Stepwells (Kalyani / Baoli):</strong> Deep reservoirs lined with carved stone steps that allowed villagers to reach cool water regardless of how high or low the water table dropped.</li><li>🏰 <strong>Hill Forts:</strong> Massive stone ramparts that defended farming communities from invading bandits.</li><li>🛕 <strong>Temple Chariots & Pillars:</strong> Intricate stone carvings depicting history and astronomy.</li></ul></div>"
+      }
+    ],
+    "interactive_activity": {
+      "type": "matching",
+      "title": "Match the Ancient Structure to its Purpose",
+      "instructions": "Click the historic monument, then match its civic function.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "Stone Stepwell (Kalyani)",
+          "right": "Community rainwater storage and cooling pavilion"
+        },
+        {
+          "id": "p2",
+          "left": "Hilltop Fort Watchtower",
+          "right": "Watching out for approaching danger from afar"
+        },
+        {
+          "id": "p3",
+          "left": "Gram Chawadi / Mandap",
+          "right": "Public village assembly hall for resolving disputes"
+        }
+      ]
+    },
+    "quiz": [
+      {
+        "id": "q1",
+        "prompt": "Why did ancient Indian kingdoms construct multi-tiered stepwells (Baolis)?",
+        "options": [
+          {
+            "id": "opt1",
+            "text": "To collect and store rainwater safely across all seasons",
+            "is_correct": true
+          },
+          {
+            "id": "opt2",
+            "text": "To store gunpowder",
+            "is_correct": false
+          },
+          {
+            "id": "opt3",
+            "text": "As parking lots for tractors",
+            "is_correct": false
+          }
+        ],
+        "hint": "Think about water preservation in dry months.",
+        "explanation": "Correct! Stepwells preserved clean water and provided cool communal spaces."
+      }
+    ]
+  },
+  {
+    "id": "lesson-eng-c6",
+    "grade_level": 6,
+    "subject_id": "eng",
+    "subject_name": "English & Vocabulary",
+    "subject_code": "ENG",
+    "title": "Reading Comprehension: Letters to the Village Postmaster",
+    "slug": "reading-comprehension-village-postmaster",
+    "summary": "Read a short rural story about the red postbox, postman uncle, and answer comprehension questions.",
+    "estimated_minutes": 20,
+    "difficulty_level": "intermediate",
+    "status": "published",
+    "stars_reward": 3,
+    "cover_color": "#D97706",
+    "sections": [
+      {
+        "id": "sec-1",
+        "title": "The Red Postbox at the Village Square",
+        "type": "concept",
+        "read_aloud": "Read closely: The red postbox stands under the shade of the peepal tree, carrying news from distant towns.",
+        "content": "<div class=\"learning-card\"><h4>The Village Postman (Dakiya)</h4><p>Every Tuesday, Postman Ramesh rides his squeaky black bicycle into the village. In his canvas bag are postcards, money orders from sons working in Bengaluru, and seeds ordered by farmers.</p><p>Elderly grandmother Yashodamma waits eagerly on her verandah for a postcard from her grandson.</p></div>"
+      }
+    ],
+    "interactive_activity": {
+      "type": "matching",
+      "title": "Match the Postal Item to its Purpose",
+      "instructions": "Click the postal item, then match what it delivers.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "Money Order",
+          "right": "Delivering cash safely to rural families"
+        },
+        {
+          "id": "p2",
+          "left": "Yellow Postcard",
+          "right": "Affordable handwritten letter message"
+        },
+        {
+          "id": "p3",
+          "left": "Speed Post Parcel",
+          "right": "Urgent medical or exam documents"
+        }
+      ]
+    },
+    "quiz": [
+      {
+        "id": "q1",
+        "prompt": "What does Postman Ramesh ride when delivering mail to the village?",
+        "options": [
+          {
+            "id": "opt1",
+            "text": "A black bicycle",
+            "is_correct": true
+          },
+          {
+            "id": "opt2",
+            "text": "A sports car",
+            "is_correct": false
+          },
+          {
+            "id": "opt3",
+            "text": "A helicopter",
+            "is_correct": false
+          }
+        ],
+        "hint": "A two-wheeled pedaled vehicle.",
+        "explanation": "Correct! The story notes that he rides his squeaky black bicycle."
+      }
+    ]
+  },
+  {
+    "id": "lesson-evs-c6",
+    "grade_level": 6,
+    "subject_id": "evs",
+    "subject_name": "Environmental Studies",
+    "subject_code": "EVS",
+    "title": "Garbage In, Wealth Out: Vermicomposting & Clean Village Drives",
+    "slug": "vermicomposting-clean-village-drives",
+    "summary": "Turn vegetable peelings and cow dung into black organic gold using friendly earthworms.",
+    "estimated_minutes": 20,
+    "difficulty_level": "intermediate",
+    "status": "published",
+    "stars_reward": 3,
+    "cover_color": "#2A8B5B",
+    "sections": [
+      {
+        "id": "sec-1",
+        "title": "The Magic of Earthworms",
+        "type": "concept",
+        "read_aloud": "Earthworms are the farmer’s best friends. They swallow dry leaves and food scraps and turn them into rich vermicompost.",
+        "content": "<div class=\"learning-card\"><h4>Segregation and Composting</h4><p>A clean village (Swachh Gram) segregates waste at source:</p><ul><li>🟢 <strong>Wet Biodegradable Waste:</strong> Kitchen peels, rotten fruits, crop straw, cow dung.</li><li>🔴 <strong>Dry Recyclable Waste:</strong> Glass bottles, scrap tin, hard plastic (send to recycling centers).</li><li>🪱 <strong>Vermicompost:</strong> In 45 days, red wigglers convert wet waste into odorless, nutrient-rich manure!</li></ul></div>"
+      }
+    ],
+    "interactive_activity": {
+      "type": "matching",
+      "title": "Match the Waste to its Proper Destination",
+      "instructions": "Click the discarded item, then match where it belongs.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "Vegetable scraps and dried leaves",
+          "right": "Compost pit with earthworms"
+        },
+        {
+          "id": "p2",
+          "left": "Empty glass medicine bottles",
+          "right": "Recyclables scrap dealer"
+        },
+        {
+          "id": "p3",
+          "left": "Plastic carry bags",
+          "right": "Banned single-use waste to eliminate"
+        }
+      ]
+    },
+    "quiz": [
+      {
+        "id": "q1",
+        "prompt": "Why is vermicompost called \"black gold\" by organic farmers?",
+        "options": [
+          {
+            "id": "opt1",
+            "text": "It enriches soil with natural minerals and friendly microbes without chemical poison",
+            "is_correct": true
+          },
+          {
+            "id": "opt2",
+            "text": "It contains actual gold coins",
+            "is_correct": false
+          },
+          {
+            "id": "opt3",
+            "text": "It is made of black paint",
+            "is_correct": false
+          }
+        ],
+        "hint": "It revitalizes soil naturally.",
+        "explanation": "Correct! Vermicompost provides organic nutrients and moisture retention."
+      }
+    ]
+  },
+  {
+    "id": "lesson-math-c6",
+    "grade_level": 6,
+    "subject_id": "math",
+    "subject_name": "Mathematics",
+    "subject_code": "MATH",
+    "title": "Integers on the Number Line: Measuring Elevations & Temperature",
+    "slug": "integers-number-line-elevation",
+    "summary": "Master negative and positive numbers using well water depth, mountain heights, and chilly winter temperatures.",
+    "estimated_minutes": 20,
+    "difficulty_level": "intermediate",
+    "status": "published",
+    "stars_reward": 3,
+    "cover_color": "#176B55",
+    "sections": [
+      {
+        "id": "sec-1",
+        "title": "Above Zero and Below Zero",
+        "type": "concept",
+        "read_aloud": "Zero is the ground level. Heights above ground are positive numbers; depths below ground are negative numbers!",
+        "content": "<div class=\"learning-card\"><h4>Understanding Positive and Negative Integers</h4><p>Imagine standing on the edge of a village stepwell:</p><ul><li>Ground level = <strong>0 meters</strong>.</li><li>A bird flying 15 meters in the air = <strong>+15</strong>.</li><li>The water surface 8 meters down in the well = <strong>−8</strong>.</li><li>Adding a negative integer moves to the left on the number line: 5 + (−3) = <strong>2</strong>.</li></ul></div>"
+      }
+    ],
+    "interactive_activity": {
+      "type": "matching",
+      "title": "Match the Situation to its Integer",
+      "instructions": "Click the real-life situation, then match its integer sign.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "A profit of ₹50 on selling onions",
+          "right": "+50"
+        },
+        {
+          "id": "p2",
+          "left": "A debt of ₹20 borrowed from neighbor",
+          "right": "−20"
+        },
+        {
+          "id": "p3",
+          "left": "Water freezing point",
+          "right": "0°C"
+        }
+      ]
+    },
+    "quiz": [
+      {
+        "id": "q1",
+        "prompt": "If you are at 5 meters elevation and walk down 7 meters into a cellar, what is your elevation?",
+        "options": [
+          {
+            "id": "opt1",
+            "text": "−2 meters",
+            "is_correct": true
+          },
+          {
+            "id": "opt2",
+            "text": "+2 meters",
+            "is_correct": false
+          },
+          {
+            "id": "opt3",
+            "text": "12 meters",
+            "is_correct": false
+          }
+        ],
+        "hint": "Calculate 5 − 7.",
+        "explanation": "Correct! 5 − 7 = −2 meters below ground level."
+      }
+    ]
+  },
+  {
+    "id": "lesson-reg-c6",
+    "grade_level": 6,
+    "subject_id": "reg",
+    "subject_name": "Regional Languages",
+    "subject_code": "REG",
+    "title": "Inspiring Biographies: Great Women and Men of Our Region",
+    "slug": "inspiring-biographies-regional-heroes",
+    "summary": "Learn about local heroes like Kittur Rani Chennamma, Onake Obavva, and Sir M. Visvesvaraya.",
+    "estimated_minutes": 20,
+    "difficulty_level": "intermediate",
+    "status": "published",
+    "stars_reward": 3,
+    "cover_color": "#7C3AED",
+    "sections": [
+      {
+        "id": "sec-1",
+        "title": "Courage That Echoes Through History",
+        "type": "concept",
+        "read_aloud": "Fearless warriors and brilliant engineers shaped the freedom and irrigation canals of our land.",
+        "content": "<div class=\"learning-card\"><h4>Courage and Selfless Service</h4><ul><li>⚔️ <strong>Onake Obavva:</strong> Defended the Chitradurga fort with a simple wooden pestle (onake) against enemy soldiers.</li><li>👑 <strong>Kittur Rani Chennamma:</strong> Fought fearlessly against the British Doctrine of Lapse decades before the 1857 uprising.</li><li>🌊 <strong>Sir M. Visvesvaraya:</strong> The brilliant civil engineer who designed automatic floodgates and built the KRS Dam on the Cauvery river!</li></ul></div>"
+      }
+    ],
+    "interactive_activity": {
+      "type": "matching",
+      "title": "Match the Historic Figure to Their Great Deed",
+      "instructions": "Click the leader, then match their legacy.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "Onake Obavva",
+          "right": "Guarded fort secret passage with household pestle"
+        },
+        {
+          "id": "p2",
+          "left": "Kittur Rani Chennamma",
+          "right": "Early queen who fought foreign colonial rule"
+        },
+        {
+          "id": "p3",
+          "left": "Sir M. Visvesvaraya",
+          "right": "Master engineer who built dams and water floodgates"
+        }
+      ]
+    },
+    "quiz": [
+      {
+        "id": "q1",
+        "prompt": "Which great engineer built modern dams and designed automatic irrigation floodgates in India?",
+        "options": [
+          {
+            "id": "opt1",
+            "text": "Sir M. Visvesvaraya",
+            "is_correct": true
+          },
+          {
+            "id": "opt2",
+            "text": "Alexander the Great",
+            "is_correct": false
+          },
+          {
+            "id": "opt3",
+            "text": "Captain Cook",
+            "is_correct": false
+          }
+        ],
+        "hint": "His birthday is celebrated as Engineers’ Day in India.",
+        "explanation": "Correct! Sir M. Visvesvaraya is revered for his water engineering genius."
+      }
+    ]
+  },
+  {
     "id": "lesson-sci-c6",
     "grade_level": 6,
     "subject_id": "sci",
@@ -2264,6 +3973,219 @@ export const sampleLessons = [
     }
   },
   {
+    "id": "lesson-soc-c6",
+    "grade_level": 6,
+    "subject_id": "soc",
+    "subject_name": "Social Studies",
+    "subject_code": "SOC",
+    "title": "Ancient Civilizations: The Harappan Towns & Lothal Port",
+    "slug": "ancient-civilizations-harappa-lothal",
+    "summary": "Discover the world’s oldest planned city grid, brick drainage systems, and maritime dockyards in ancient India.",
+    "estimated_minutes": 20,
+    "difficulty_level": "intermediate",
+    "status": "published",
+    "stars_reward": 3,
+    "cover_color": "#EA580C",
+    "sections": [
+      {
+        "id": "sec-1",
+        "title": "Town Planning 4500 Years Ago",
+        "type": "concept",
+        "read_aloud": "Harappan cities had straight streets, baked brick houses, and covered drainage systems cleaner than many modern towns!",
+        "content": "<div class=\"learning-card\"><h4>The Indus Valley Engineers</h4><p>Over 4,500 years ago, cities like Harappa, Mohenjo-daro, and Lothal thrived in the subcontinent:</p><ul><li>🧱 <strong>Baked Brick Architecture:</strong> Uniform size bricks used for homes and great granaries.</li><li>🚿 <strong>Underground Drainage:</strong> Covered drains along streets with inspection manholes.</li><li>⚓ <strong>Lothal Tidal Dockyard:</strong> Ships sailed into a massive brick basin to trade beads and copper with Mesopotamia!</li></ul></div>"
+      }
+    ],
+    "interactive_activity": {
+      "type": "matching",
+      "title": "Match the Ancient City Feature to its Achievement",
+      "instructions": "Click the feature, then match its significance.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "Covered Street Drains",
+          "right": "Advanced public hygiene and sewage management"
+        },
+        {
+          "id": "p2",
+          "left": "Lothal Tidal Dockyard",
+          "right": "Ancient maritime international trading port"
+        },
+        {
+          "id": "p3",
+          "left": "The Great Bath",
+          "right": "Waterproofed brick pool for ceremonial bathing"
+        }
+      ]
+    },
+    "quiz": [
+      {
+        "id": "q1",
+        "prompt": "What material did Indus Valley builders use that has survived for over 4,000 years?",
+        "options": [
+          {
+            "id": "opt1",
+            "text": "Kiln-baked clay bricks",
+            "is_correct": true
+          },
+          {
+            "id": "opt2",
+            "text": "Plastic sheets",
+            "is_correct": false
+          },
+          {
+            "id": "opt3",
+            "text": "Cardboard cartons",
+            "is_correct": false
+          }
+        ],
+        "hint": "Clay fired in high-heat kilns.",
+        "explanation": "Correct! Baked brick masonry was so durable it lasted millennia."
+      }
+    ]
+  },
+  {
+    "id": "lesson-eng-c7",
+    "grade_level": 7,
+    "subject_id": "eng",
+    "subject_name": "English & Vocabulary",
+    "subject_code": "ENG",
+    "title": "Conversational English: Welcoming Guests & Asking for Help",
+    "slug": "conversational-english-dialogues",
+    "summary": "Build spoken English confidence for daily village interactions, greeting guests, and polite requests.",
+    "estimated_minutes": 20,
+    "difficulty_level": "intermediate",
+    "status": "published",
+    "stars_reward": 3,
+    "cover_color": "#D97706",
+    "sections": [
+      {
+        "id": "sec-1",
+        "title": "Everyday Spoken English Phrases",
+        "type": "concept",
+        "read_aloud": "Good morning! Please come in. Would you like a glass of water? How can I help you?",
+        "content": "<div class=\"learning-card\"><h4>Practicing Dialogue with a Partner</h4><p>Roleplay this common conversation between a visitor and a village student:</p><blockquote><strong>Visitor:</strong> \"Excuse me, could you tell me where the Government Primary School is?\"<br/><strong>Student:</strong> \"Certainly! Walk straight for 200 meters, then turn left at the banyan tree. The school has blue gates.\"<br/><strong>Visitor:</strong> \"Thank you very much, young scholar!\"<br/><strong>Student:</strong> \"You are welcome, Sir!\"</blockquote></div>"
+      }
+    ],
+    "interactive_activity": {
+      "type": "matching",
+      "title": "Match the English Question to its Polite Reply",
+      "instructions": "Click the question, then match the polite answer.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "How are you doing today?",
+          "right": "I am doing well, thank you!"
+        },
+        {
+          "id": "p2",
+          "left": "Could you please pass the water?",
+          "right": "Sure, here you go."
+        },
+        {
+          "id": "p3",
+          "left": "Thank you for your assistance!",
+          "right": "You are most welcome!"
+        }
+      ]
+    },
+    "quiz": [
+      {
+        "id": "q1",
+        "prompt": "What is the polite English phrase to say after someone thanks you?",
+        "options": [
+          {
+            "id": "opt1",
+            "text": "You are welcome!",
+            "is_correct": true
+          },
+          {
+            "id": "opt2",
+            "text": "Go away!",
+            "is_correct": false
+          },
+          {
+            "id": "opt3",
+            "text": "Why did you speak?",
+            "is_correct": false
+          }
+        ],
+        "hint": "A gracious response of hospitality.",
+        "explanation": "Correct! \"You are welcome!\" is the standard polite reply."
+      }
+    ]
+  },
+  {
+    "id": "lesson-evs-c7",
+    "grade_level": 7,
+    "subject_id": "evs",
+    "subject_name": "Environmental Studies",
+    "subject_code": "EVS",
+    "title": "Soil Conservation and Organic Farming Methods",
+    "slug": "soil-conservation-organic-farming",
+    "summary": "Prevent soil erosion on slopes through terrace farming, bund planting, and natural pest management with neem spray.",
+    "estimated_minutes": 20,
+    "difficulty_level": "intermediate",
+    "status": "published",
+    "stars_reward": 3,
+    "cover_color": "#2A8B5B",
+    "sections": [
+      {
+        "id": "sec-1",
+        "title": "Guarding the Living Soil",
+        "type": "concept",
+        "read_aloud": "It takes 500 years for nature to form one inch of fertile topsoil. We must protect it from washing away into rivers!",
+        "content": "<div class=\"learning-card\"><h4>Preventing Topsoil Loss</h4><ul><li>🪜 <strong>Terrace / Contour Farming:</strong> Cutting steps on slopes slows down rushing water so soil stays put.</li><li>🌱 <strong>Vetiver Grass Bunds:</strong> Deep fibrous roots of vetiver grass create an impenetrable natural barrier against erosion.</li><li>🍃 <strong>Neem Astra Spray:</strong> Crushed neem leaves and cow urine repel caterpillars without killing beneficial bees!</li></ul></div>"
+      }
+    ],
+    "interactive_activity": {
+      "type": "matching",
+      "title": "Match the Farming Practice to its Benefit",
+      "instructions": "Click the practice, then match why farmers use it.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "Terrace Farming",
+          "right": "Slows water flow on steep hillsides"
+        },
+        {
+          "id": "p2",
+          "left": "Neem-based Bio-spray",
+          "right": "Controls pests without chemical poisons"
+        },
+        {
+          "id": "p3",
+          "left": "Mulching with Dry Hay",
+          "right": "Prevents soil moisture from evaporating in sun"
+        }
+      ]
+    },
+    "quiz": [
+      {
+        "id": "q1",
+        "prompt": "Which natural plant spray protects crops from sucking pests without harming bees?",
+        "options": [
+          {
+            "id": "opt1",
+            "text": "Neem seed decoction (Neem Astra)",
+            "is_correct": true
+          },
+          {
+            "id": "opt2",
+            "text": "Kerosene oil",
+            "is_correct": false
+          },
+          {
+            "id": "opt3",
+            "text": "Salt water",
+            "is_correct": false
+          }
+        ],
+        "hint": "Extracted from the sacred neem tree.",
+        "explanation": "Correct! Neem compounds naturally deter pests while leaving friendly pollinators safe."
+      }
+    ]
+  },
+  {
     "id": "lesson-math-c7",
     "grade_level": 7,
     "subject_id": "math",
@@ -2335,6 +4257,77 @@ export const sampleLessons = [
     ]
   },
   {
+    "id": "lesson-reg-c7",
+    "grade_level": 7,
+    "subject_id": "reg",
+    "subject_name": "Regional Languages",
+    "subject_code": "REG",
+    "title": "Vachanas, Dohas & Bhakti Literature: Moral Values and Equality",
+    "slug": "vachanas-dohas-bhakti-literature",
+    "summary": "Study the egalitarian poetry of Basavanna, Kabir, and Akka Mahadevi advocating equality, dignity of labor, and kindness.",
+    "estimated_minutes": 20,
+    "difficulty_level": "intermediate",
+    "status": "published",
+    "stars_reward": 3,
+    "cover_color": "#7C3AED",
+    "sections": [
+      {
+        "id": "sec-1",
+        "title": "Poetry That Broke Caste and Gender Barriers",
+        "type": "concept",
+        "read_aloud": "Kayakave Kailasa! Basavanna declared that honest labor itself is heaven. Treat all human beings as equal.",
+        "content": "<div class=\"learning-card\"><h4>Words of Timeless Truth</h4><ul><li>🕊️ <strong>Basavanna (Vachanas):</strong> <em>\"ಕಾಯಕವೇ ಕೈಲಾಸ\"</em> (Work is Heaven). He established the Anubhava Mantapa where all castes, men, and women sat together to debate philosophy.</li><li>🧵 <strong>Kabir Das (Dohas):</strong> <em>\"ऐसी बानी बोलिए, मन का आपा खोय। औरन को सीतल करै, आपहु सीतल होय॥\"</em> (Speak words so gentle that they soothe both the listener and speaker).</li></ul></div>"
+      }
+    ],
+    "interactive_activity": {
+      "type": "matching",
+      "title": "Match the Bhakti Poet to Their Central Teaching",
+      "instructions": "Click the saint-poet, then match their message.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "Basavanna",
+          "right": "Dignity of labor (Kayakave Kailasa) & social equality"
+        },
+        {
+          "id": "p2",
+          "left": "Kabir Das",
+          "right": "Simplicity, pure heart & gentle speech over rituals"
+        },
+        {
+          "id": "p3",
+          "left": "Akka Mahadevi",
+          "right": "Fearless devotion and spiritual liberation"
+        }
+      ]
+    },
+    "quiz": [
+      {
+        "id": "q1",
+        "prompt": "What did Basavanna mean by the famous phrase \"Kayakave Kailasa\"?",
+        "options": [
+          {
+            "id": "opt1",
+            "text": "Honest labor with dedication is itself divine worship",
+            "is_correct": true
+          },
+          {
+            "id": "opt2",
+            "text": "Running away to the forest is best",
+            "is_correct": false
+          },
+          {
+            "id": "opt3",
+            "text": "Only rich people go to heaven",
+            "is_correct": false
+          }
+        ],
+        "hint": "Kayaka means dedicated work.",
+        "explanation": "Correct! Kayakave Kailasa means that sincere, honest labor is the highest spiritual path."
+      }
+    ]
+  },
+  {
     "id": "lesson-sci-c7",
     "grade_level": 7,
     "subject_id": "sci",
@@ -2402,6 +4395,361 @@ export const sampleLessons = [
         ],
         "hint": "Think about microorganisms living inside their large rumen.",
         "explanation": "Correct! Rumen bacteria produce cellulase enzymes to break down tough plant walls."
+      }
+    ]
+  },
+  {
+    "id": "lesson-soc-c7",
+    "grade_level": 7,
+    "subject_id": "soc",
+    "subject_name": "Social Studies",
+    "subject_code": "SOC",
+    "title": "Medieval Trade and Crafts: Silk Weavers, Metalworkers & Temple Towns",
+    "slug": "medieval-trade-crafts-temple-towns",
+    "summary": "Discover how medieval towns like Hampi, Thanjavur, and Surat flourished through artisanal crafts and global spice trade.",
+    "estimated_minutes": 20,
+    "difficulty_level": "intermediate",
+    "status": "published",
+    "stars_reward": 3,
+    "cover_color": "#EA580C",
+    "sections": [
+      {
+        "id": "sec-1",
+        "title": "Bustling Medieval Bazaars",
+        "type": "concept",
+        "read_aloud": "European travelers wrote in awe of Indian bazaars where pearls, silks, and aromatic spices were sold in broad daylight.",
+        "content": "<div class=\"learning-card\"><h4>The Guilds of Craftsmanship</h4><p>During the Chola, Vijayanagara, and Mughal eras, artisan guilds (shrenis) produced goods famous worldwide:</p><ul><li>🧵 <strong>Textiles & Dyes:</strong> Fine muslin of Bengal, indigo dye, and Ilkal/Kanchipuram silks.</li><li>🏺 <strong>Bronze Casting:</strong> Lost-wax (cire perdue) technique used to cast exquisite Chola Nataraja bronzes.</li><li>💎 <strong>Global Trade:</strong> Indian pepper and cloves were prized in Rome, Venice, and Persia as \"black gold\".</li></ul></div>"
+      }
+    ],
+    "interactive_activity": {
+      "type": "matching",
+      "title": "Match the Medieval Center to its Renowned Craft",
+      "instructions": "Click the historic trade center, then match its specialty.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "Hampi (Vijayanagara)",
+          "right": "Ruby and diamond gemstone bazaars"
+        },
+        {
+          "id": "p2",
+          "left": "Thanjavur",
+          "right": "Lost-wax bronze casting & bronze idols"
+        },
+        {
+          "id": "p3",
+          "left": "Surat",
+          "right": "Western maritime gateway for textile exports"
+        }
+      ]
+    },
+    "quiz": [
+      {
+        "id": "q1",
+        "prompt": "What method did ancient Indian artisans use to cast hollow and solid bronze sculptures?",
+        "options": [
+          {
+            "id": "opt1",
+            "text": "Lost-wax (Cire perdue) technique",
+            "is_correct": true
+          },
+          {
+            "id": "opt2",
+            "text": "3D printing",
+            "is_correct": false
+          },
+          {
+            "id": "opt3",
+            "text": "Cardboard pasting",
+            "is_correct": false
+          }
+        ],
+        "hint": "A wax model covered in clay and melted away.",
+        "explanation": "Correct! Lost-wax casting was mastered by medieval Indian sculptors."
+      }
+    ]
+  },
+  {
+    "id": "lesson-eng-c8",
+    "grade_level": 8,
+    "subject_id": "eng",
+    "subject_name": "English & Vocabulary",
+    "subject_code": "ENG",
+    "title": "Formal & Informal Letter Writing: Village Council Suggestions",
+    "slug": "formal-letter-writing-village-council",
+    "summary": "Learn how to write a polite official letter to the Panchayat Secretary requesting solar streetlights for your school.",
+    "estimated_minutes": 20,
+    "difficulty_level": "advanced",
+    "status": "published",
+    "stars_reward": 3,
+    "cover_color": "#D97706",
+    "sections": [
+      {
+        "id": "sec-1",
+        "title": "Structure of an Official Letter",
+        "type": "concept",
+        "read_aloud": "From address, Date, To address, Subject line, Respected Sir/Madam, Body paragraphs, and Yours faithfully!",
+        "content": "<div class=\"learning-card\"><h4>Writing for Civic Impact</h4><p>Every citizen can communicate constructively with government authorities:</p><ul><li>1️⃣ <strong>Sender Address & Date:</strong> Top left.</li><li>2️⃣ <strong>Recipient:</strong> To, The Panchayat Development Officer (PDO).</li><li>3️⃣ <strong>Subject:</strong> Concise, bold statement: <em>Subject: Request for solar streetlight near Government Middle School.</em></li><li>4️⃣ <strong>Salutation & Body:</strong> Respectful facts explaining why children need light for evening study.</li><li>5️⃣ <strong>Sign-off:</strong> Yours faithfully, followed by student signature.</li></ul></div>"
+      }
+    ],
+    "interactive_activity": {
+      "type": "matching",
+      "title": "Match the Letter Section to its Purpose",
+      "instructions": "Click the section, then match what it contains.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "Subject Line",
+          "right": "Single sentence stating the reason for writing"
+        },
+        {
+          "id": "p2",
+          "left": "Body Paragraphs",
+          "right": "Clear details and evidence of the request"
+        },
+        {
+          "id": "p3",
+          "left": "Subscription",
+          "right": "\"Yours faithfully\" or \"Yours sincerely\""
+        }
+      ]
+    },
+    "quiz": [
+      {
+        "id": "q1",
+        "prompt": "Which of the following is an appropriate formal Subject Line in a civic letter?",
+        "options": [
+          {
+            "id": "opt1",
+            "text": "Subject: Request for repair of village school handpump",
+            "is_correct": true
+          },
+          {
+            "id": "opt2",
+            "text": "Hey bro what is up?",
+            "is_correct": false
+          },
+          {
+            "id": "opt3",
+            "text": "Subject: I want ice cream",
+            "is_correct": false
+          }
+        ],
+        "hint": "Clear, concise, and respectful.",
+        "explanation": "Correct! A formal subject line clearly describes the civic request."
+      }
+    ]
+  },
+  {
+    "id": "lesson-evs-c8",
+    "grade_level": 8,
+    "subject_id": "evs",
+    "subject_name": "Environmental Studies",
+    "subject_code": "EVS",
+    "title": "Conserving Village Water Bodies and Groundwater Recharge",
+    "slug": "conserving-village-water-groundwater-recharge",
+    "summary": "Study watershed management, percolation pits, check dams, and how to stop over-extraction of aquifers.",
+    "estimated_minutes": 20,
+    "difficulty_level": "advanced",
+    "status": "published",
+    "stars_reward": 3,
+    "cover_color": "#2A8B5B",
+    "sections": [
+      {
+        "id": "sec-1",
+        "title": "The Crisis of the Falling Water Table",
+        "type": "concept",
+        "read_aloud": "Deep borewells are sucking ancient underground aquifers dry. We must recharge the earth with percolation check dams!",
+        "content": "<div class=\"learning-card\"><h4>Community Watershed Management</h4><ul><li>🚧 <strong>Check Dams:</strong> Small stone barriers built across seasonal streams slow down rainwater so it seeps deep into the soil.</li><li>🕳️ <strong>Recharge Pits:</strong> Directing clean rooftop rain into filtered gravel pits around borewells raises groundwater levels.</li><li>🌾 <strong>Crop Shift:</strong> Shifting away from thirsty sugarcane in drought zones to drought-resilient millets and pulses.</li></ul></div>"
+      }
+    ],
+    "interactive_activity": {
+      "type": "matching",
+      "title": "Match the Watershed Technique to its Mechanism",
+      "instructions": "Click the method, then match how it protects water.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "Check Dam on stream",
+          "right": "Slows runoff to promote aquifer infiltration"
+        },
+        {
+          "id": "p2",
+          "left": "Borewell Recharge Pit",
+          "right": "Filters rooftop rain directly into deep strata"
+        },
+        {
+          "id": "p3",
+          "left": "Desilting Village Pond",
+          "right": "Restores water holding capacity of the lake"
+        }
+      ]
+    },
+    "quiz": [
+      {
+        "id": "q1",
+        "prompt": "What is the main advantage of building check dams across monsoon ravines?",
+        "options": [
+          {
+            "id": "opt1",
+            "text": "It holds back flowing rainwater so it percolates down and raises nearby well levels",
+            "is_correct": true
+          },
+          {
+            "id": "opt2",
+            "text": "It stops villagers from walking",
+            "is_correct": false
+          },
+          {
+            "id": "opt3",
+            "text": "It produces loud noise",
+            "is_correct": false
+          }
+        ],
+        "hint": "Percolation recharges underground water.",
+        "explanation": "Correct! Check dams give water time to seep underground instead of rushing away."
+      }
+    ]
+  },
+  {
+    "id": "lesson-math-c8",
+    "grade_level": 8,
+    "subject_id": "math",
+    "subject_name": "Mathematics",
+    "subject_code": "MATH",
+    "title": "Linear Equations in Real Life: Farming Cost and Crop Yield",
+    "slug": "linear-equations-farming-profit",
+    "summary": "Solve single-variable linear equations to calculate seed budget, tractor diesel cost, and net harvest earnings.",
+    "estimated_minutes": 20,
+    "difficulty_level": "advanced",
+    "status": "published",
+    "stars_reward": 3,
+    "cover_color": "#176B55",
+    "sections": [
+      {
+        "id": "sec-1",
+        "title": "Formulating the Problem with an Unknown Variable",
+        "type": "concept",
+        "read_aloud": "Let x represent the unknown number of bags. Use algebra to balance cost and profit equations!",
+        "content": "<div class=\"learning-card\"><h4>Algebra on the Farm</h4><p>Farmer Savita spends ₹2,000 on tilling. Each bag of organic fertilizer costs ₹300. Her total expense is ₹4,100.</p><p>How many fertilizer bags (b) did she purchase?</p><p><strong>Equation:</strong> 2000 + 300b = 4100</p><p>300b = 4100 − 2000 = 2100</p><p>b = 2100 ÷ 300 = <strong>7 bags!</strong></p></div>"
+      }
+    ],
+    "interactive_activity": {
+      "type": "matching",
+      "title": "Match the Word Problem to its Equation",
+      "instructions": "Click the problem, then match its algebraic equation.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "Twice a number plus 5 equals 25",
+          "right": "2x + 5 = 25"
+        },
+        {
+          "id": "p2",
+          "left": "Three bags of seeds cost ₹150",
+          "right": "3x = 150"
+        },
+        {
+          "id": "p3",
+          "left": "A number decreased by 8 gives 12",
+          "right": "x − 8 = 12"
+        }
+      ]
+    },
+    "quiz": [
+      {
+        "id": "q1",
+        "prompt": "Solve for x: 3x + 10 = 40. What is x?",
+        "options": [
+          {
+            "id": "opt1",
+            "text": "10",
+            "is_correct": true
+          },
+          {
+            "id": "opt2",
+            "text": "15",
+            "is_correct": false
+          },
+          {
+            "id": "opt3",
+            "text": "30",
+            "is_correct": false
+          }
+        ],
+        "hint": "3x = 40 − 10 = 30. Divide by 3.",
+        "explanation": "Correct! 3x = 30, so x = 10."
+      }
+    ]
+  },
+  {
+    "id": "lesson-reg-c8",
+    "grade_level": 8,
+    "subject_id": "reg",
+    "subject_name": "Regional Languages",
+    "subject_code": "REG",
+    "title": "Modern Literature: Short Stories on Rural Transformation",
+    "slug": "modern-literature-rural-transformation",
+    "summary": "Read stories by Kuvempu, Premchand, and Shivarama Karanth exploring rural dignity, education, and social change.",
+    "estimated_minutes": 20,
+    "difficulty_level": "advanced",
+    "status": "published",
+    "stars_reward": 3,
+    "cover_color": "#7C3AED",
+    "sections": [
+      {
+        "id": "sec-1",
+        "title": "Literature as the Mirror of Society",
+        "type": "concept",
+        "read_aloud": "Kuvempu proclaimed \"Vishwa Manava\" — Every child is born a universal human being, free of prejudice and full of light.",
+        "content": "<div class=\"learning-card\"><h4>The Universal Human (ವಿಶ್ವಮಾನವ ಸಂದೇಶ)</h4><p>Rastrakavi Kuvempu taught that education in rural schools must break narrow boundaries of caste and language to realize human unity:</p><blockquote>\"ಪ್ರತಿಯೊಂದು ಮಗು ಹುಟ್ಟುವಾಗ ವಿಶ್ವಮಾನವ. ಬೆಳೆಯುತ್ತಾ ನಾವು ಅವನನ್ನು ಅಲ್ಪಮಾನವನನ್ನಾಗಿ ಮಾಡುತ್ತೇವೆ. ಶಿಕ್ಷಣವು ಅವನನ್ನು ಮತ್ತೆ ವಿಶ್ವಮಾನವನನ್ನಾಗಿ ಮಾಡಬೇಕು.\"</blockquote><p>Great literature opens our hearts to empathy, scientific curiosity, and love for nature.</p></div>"
+      }
+    ],
+    "interactive_activity": {
+      "type": "matching",
+      "title": "Match the Literary Legend to Their Vision",
+      "instructions": "Click the author, then match their message.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "Kuvempu",
+          "right": "Vishwa Manava (Universal Human) message of universal harmony"
+        },
+        {
+          "id": "p2",
+          "left": "Munshi Premchand",
+          "right": "Stories of rural farmers’ dignity, resilience, and compassion"
+        },
+        {
+          "id": "p3",
+          "left": "Dr. Kota Shivarama Karanth",
+          "right": "Pioneered environmental defense of rivers and forests"
+        }
+      ]
+    },
+    "quiz": [
+      {
+        "id": "q1",
+        "prompt": "What did Kuvempu mean by the \"Vishwa Manava\" (Universal Human) ideal?",
+        "options": [
+          {
+            "id": "opt1",
+            "text": "Every child is born universal and education should expand their heart without prejudice",
+            "is_correct": true
+          },
+          {
+            "id": "opt2",
+            "text": "Children should only stay in one room",
+            "is_correct": false
+          },
+          {
+            "id": "opt3",
+            "text": "Nobody should read books",
+            "is_correct": false
+          }
+        ],
+        "hint": "A universal worldview that embraces humanity.",
+        "explanation": "Correct! Kuvempu’s Vishwa Manava vision champions universal brotherhood and enlightened empathy."
       }
     ]
   },
